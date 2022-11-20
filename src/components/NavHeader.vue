@@ -173,6 +173,7 @@ export default {
     // },
     // cartCount() {
     //   return this.$store.state.cartCount;
+    //
     // }
     // 方式二：
     ...mapState(['username', 'cartCount'])
