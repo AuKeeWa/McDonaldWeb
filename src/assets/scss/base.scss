@@ -1,56 +1,63 @@
 // 基本样式
-
 .container {
-  position: relative;
-  width: 1226px;
-  margin-right: auto;
-  margin-left: auto;
+    position: relative;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 a {
-  img {
-    width: 100%;
-    height: 100%;
-  }
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
+
 input {
     outline: none;
     box-sizing: border-box;
     font-size: 14px;
 }
+
 .fl {
-  float: left;
+    float: left;
 }
+
 .fr {
-  float: right;
+    float: right;
 }
-.clearfix:before,.clearfix:after{
-  content: '';
-  display: table;
-}
+
+.clearfix:before,
 .clearfix:after {
-  clear: both;
+    content: '';
+    display: table;
 }
+
+.clearfix:after {
+    clear: both;
+}
+
 // 公共logo
 .header-logo {
-  display: inline-block;
-  width: 55px;
-  height: 55px;
-  background: $colorA;
-  a {
     display: inline-block;
-    width: 110px;
-    height: 55px;
-    &::before {
-      content: '';
-      @include bgImg(55px, 55px, '/imgs/mi-logo.png');
-      transition: margin 0.2s;
+    width: $fontA;
+    height: $fontA;
+    // background: $colorA;
+    a {
+        display: inline-block;
+        width: $fontA;
+        height: $fontA;
+        &::before {
+            content: '';
+            @include bgImg($fontA, $fontA, '/images/logo-80 2.png');
+            // transition: margin 0.2s;
+        }
+        // &::after {
+        //     content: '';
+        //     @include bgImg(55px, 55px, '/imgs/mi-home.png');
+        // }
+        // &:hover::before {
+        //     margin-left: -55px;
+        // }
     }
-    &::after {
-      content: '';
-      @include bgImg(55px, 55px, '/imgs/mi-home.png');
-    }
-    &:hover::before {
-      margin-left: -55px;
-    }
-  }
 }

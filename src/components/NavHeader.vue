@@ -1,7 +1,7 @@
 <template>
   <!-- 顶部导航 -->
   <div class="header">
-    <div class="nav-topbar">
+    <!-- <div class="nav-topbar">
       <div class="container">
         <div class="topbar-menu">
           <a href="javascript:;">小米商城</a>
@@ -18,18 +18,22 @@
           }})</a>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="nav-header">
       <div class="container">
         <div class="header-logo">
           <a href="/#/index"></a>
         </div>
+        <div class="header-search">
+          <div class="wrapper">
+            <input type="text" name="keyword"><a href="javascript:;"></a>
+          </div>
+        </div>
         <div class="header-menu">
           <div class="item-menu">
-            <span>小米手机</span>
+            <span href="/#/index">麦当劳</span>
             <div class="children">
-              <ul>
-                <li class="product" v-for="(item, index) in phoneList" :key="index">
+              <!-- <li class="product" v-for="(item, index) in phoneList" :key="index">
                   <a :href="'/#/product/' + item.id" target="_blank">
                     <div class="pro-img">
                       <img :src="item.mainImage" :alt="item.subtitle">
@@ -37,12 +41,47 @@
                     <div class="pro-name">{{ item.name }}</div>
                     <div class="pro-price">{{ item.price | currency }}</div>
                   </a>
+                </li> -->
+              <ul>
+                <li class="outsidePages">
+                  <a><b>关于我们</b></a>
+                  <ul>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/about/company">麦当劳全球</a></li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/about/brand-25">品牌介绍</a></li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/about/value">经营理念</a></li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/about/standard-business-conduct">商业道德与合规</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="outsidePages">
+                  <a><b>中国发展</b></a>
+                  <ul>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/mcdonalds-china/Serving-Here">品牌观念</a></li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/mcdonalds-china/MCD-in-China-2">30年历程</a></li>
+                    <li><a
+                        href="https://www.mcdonalds.com.cn/index/McD/mcdonalds-china/%E4%B8%9A%E5%8A%A1%E5%B9%B3%E5%8F%B0">业务平台</a>
+                    </li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/mcdonalds-china/China-management-team">管理层介绍</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="outsidePages">
+                  <a><b>加入麦当劳</b></a>
+                  <ul>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/join-us/we-believe-in-youth">人员品牌主张</a></li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/join-us/hamburger-university">汉堡大学</a></li>
+                    <li><a
+                        href="https://www.mcdonalds.com.cn/index/McD/join-us/%E9%BA%A6%E8%83%9E%E6%95%85%E4%BA%8B">麦胞故事</a>
+                    </li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/join-us/campus-recruitment-4">校园招聘</a></li>
+                    <li><a href="https://www.mcdonalds.com.cn/index/McD/join-us/job-vacancy">工作机会</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>
           </div>
           <div class="item-menu">
-            <span>RedMi红米</span>
+            <span>餐品总览</span>
             <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in redmiList" :key="i">
@@ -58,7 +97,23 @@
             </div>
           </div>
           <div class="item-menu">
-            <span>电视</span>
+            <span>网上订餐</span>
+            <div class="children">
+              <ul>
+                <li class="product" v-for="(item, i) in tvList" :key="i">
+                  <a href="" target="_blank">
+                    <div class="pro-img">
+                      <img :src="item.img" alt="">
+                    </div>
+                    <div class="pro-name">{{ item.title }}</div>
+                    <div class="pro-price">{{ item.price }}</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-menu">
+            <span>外星页面</span>
             <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in tvList" :key="i">
@@ -74,11 +129,7 @@
             </div>
           </div>
         </div>
-        <div class="header-search">
-          <div class="wrapper">
-            <input type="text" name="keyword"><a href="javascript:;"></a>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
@@ -268,28 +319,31 @@ export default {
       @include flex();
 
       .header-logo {
-        border-radius: 19px;
+        // border-radius: 19px;
       }
 
       .header-menu {
         display: inline-block;
         width: 643px;
-        padding-left: 209px;
+        padding-left: 20px;
 
         .item-menu {
           display: inline-block;
-          color: #333;
+          color: $colorA;
           font-weight: bold;
-          font-size: 16px;
-          line-height: 112px;
-          margin-right: 20px;
+          font-size: 25px;
+          line-height: 60px;
+          margin-right: 60px;
+          border-radius: 20px;
 
           span {
             cursor: pointer;
           }
 
           &:hover {
-            color: $colorA;
+            color: #ffffff;
+            background-color: $colorA;
+            transition: 0.5s;
 
             .children {
               height: 220px;
@@ -310,6 +364,35 @@ export default {
             z-index: 10;
             transition: height 0.5s;
             background-color: #fff;
+
+            .outsidePages {
+              // display: inline-block;
+              all: initial;
+              width: 110px;
+              font-size: large;
+              text-align: justify;
+              color: #000000;
+
+              li {
+                // display: inline-block;
+                // float: left;
+
+                color: $colorD;
+              }
+
+              ul {
+                width: 200px;
+                overflow: hidden;
+                float: left;
+                // white-space: nowrap;
+                // display: inline-block;
+              }
+
+              a {
+                color: $colorC;
+                display: block;
+              }
+            }
 
             .product {
               position: relative;
@@ -368,13 +451,16 @@ export default {
 
         .wrapper {
           height: 50px;
-          border: 1px solid #e0e0e0;
+          border: 3px solid $colorA;
+          border-radius: 10px;
+          margin-left: 60px;
+          margin-right: auto;
           @include flex();
 
           input {
             border: none;
             box-sizing: border-box;
-            border-right: 1px solid #e0e0e0;
+            border-right: 1px solid $colorA;
             width: 264px;
             height: 50px;
             padding-left: 14px;
@@ -382,8 +468,13 @@ export default {
 
           a {
             @include bgImg(18px, 18px, '/imgs/icon-search.png');
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 18px;
+            margin-right: 18px;
+          }
+
+          &:hover {
+            color: #ffffff;
+            background-color: $colorA;
           }
         }
       }
