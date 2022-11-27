@@ -72,16 +72,16 @@
             </div>
           </div>
           <div class="item-menu">
-            <span href="/#/Product/">餐品总览</span>
+            <span>餐品总览</span>
             <div class="children">
               <ul>
-                <li class="product" v-for="(item, i) in redmiList" :key="i">
+                <li class="product" v-for="(item, i) in foodList" :key="i">
                   <a href="" target="_blank">
                     <div class="pro-img">
                       <img :src="item.img" alt="">
                     </div>
                     <div class="pro-name">{{ item.title }}</div>
-                    <div class="pro-price">{{ item.price }}</div>
+                    <!-- <div class="pro-price">{{ item.price }}</div> -->
                   </a>
                 </li>
               </ul>
@@ -132,7 +132,7 @@ export default {
   name: 'nav-header',
   data() {
     return {
-      redmiList: [
+      foodList: [
         {
           img: '/images/dishes/burger/01.png',
           title: '汉堡',
@@ -480,4 +480,10 @@ export default {
     }
   }
 }
+
+// * {
+//   outline: solid #f00 1px !important;
+//   background: #000 !important;
+//   color: #fff !important;
+// }
 </style>
