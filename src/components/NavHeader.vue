@@ -26,22 +26,13 @@
         </div>
         <div class="header-search">
           <div class="wrapper">
-            <input type="text" name="keyword"><a href="javascript:;"></a>
+            <input type="text" placeholder="Search.." name="keyword"><a href="javascript:;"></a>
           </div>
         </div>
         <div class="header-menu">
           <div class="item-menu">
             <span href="/#/index">麦当劳</span>
             <div class="children">
-              <!-- <li class="product" v-for="(item, index) in phoneList" :key="index">
-                  <a :href="'/#/product/' + item.id" target="_blank">
-                    <div class="pro-img">
-                      <img :src="item.mainImage" :alt="item.subtitle">
-                    </div>
-                    <div class="pro-name">{{ item.name }}</div>
-                    <div class="pro-price">{{ item.price | currency }}</div>
-                  </a>
-                </li> -->
               <ul>
                 <li class="outsidePages">
                   <a><b>关于我们</b></a>
@@ -81,7 +72,7 @@
             </div>
           </div>
           <div class="item-menu">
-            <span>餐品总览</span>
+            <span href="/#/Product/">餐品总览</span>
             <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in redmiList" :key="i">
@@ -98,7 +89,7 @@
           </div>
           <div class="item-menu">
             <span>网上订餐</span>
-            <div class="children">
+            <!-- <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in tvList" :key="i">
                   <a href="" target="_blank">
@@ -110,11 +101,11 @@
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
           <div class="item-menu">
             <span>外星页面</span>
-            <div class="children">
+            <!-- <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in tvList" :key="i">
                   <a href="" target="_blank">
@@ -126,7 +117,7 @@
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -143,34 +134,33 @@ export default {
     return {
       redmiList: [
         {
-          img: '/imgs/nav-img/nav-6.png',
-          title: 'RedMi红米 K50pro',
-          price: '5999元'
+          img: '/images/dishes/burger/01.png',
+          title: '汉堡',
         },
         {
-          img: '/imgs/nav-img/nav-5.png',
-          title: 'RedMi红米 note6',
-          price: '2999元'
+          img: '/images/dishes/snacks/01.png',
+          title: '小食',
+
         },
         {
-          img: '/imgs/nav-img/nav-4.png',
-          title: 'RedMi红米 Mix',
-          price: '3999元'
+          img: '/images/dishes/beverage/01.png',
+          title: '饮料',
+
         },
         {
-          img: '/imgs/nav-img/nav-3.png',
-          title: 'RedMi红米 k40 plus',
-          price: '5688元'
+          img: '/images/dishes/desserts/01.png',
+          title: '甜点',
+
         },
         {
-          img: '/imgs/nav-img/nav-2.png',
-          title: 'RedMi红米 K50',
-          price: '6228元'
+          img: '/images/dishes/breakfast/01.png',
+          title: '早餐',
+
         },
         {
-          img: '/imgs/nav-img/nav-1.png',
-          title: 'RedMi红米 8plus',
-          price: '4890元'
+          img: '/images/dishes/cafe/01.png',
+          title: '咖啡',
+
         }
       ],
       tvList: [
@@ -346,7 +336,7 @@ export default {
             transition: 0.5s;
 
             .children {
-              height: 220px;
+              height: 230px;
               opacity: 1;
             }
           }
@@ -369,11 +359,16 @@ export default {
               // display: inline-block;
               all: initial;
               width: 110px;
-              font-size: large;
-              text-align: justify;
-              color: #000000;
+              font-size: 20px;
+              text-align: match-parent;
+
+              b {
+                font-size: larger;
+                color: $colorA;
+              }
 
               li {
+
                 // display: inline-block;
                 // float: left;
 
@@ -381,7 +376,7 @@ export default {
               }
 
               ul {
-                width: 200px;
+                width: 250px;
                 overflow: hidden;
                 float: left;
                 // white-space: nowrap;
@@ -389,6 +384,7 @@ export default {
               }
 
               a {
+
                 color: $colorC;
                 display: block;
               }
@@ -418,6 +414,7 @@ export default {
               }
 
               .pro-name {
+                font-size: large;
                 font-weight: bold;
                 margin-top: 19px;
                 margin-bottom: 8px;
@@ -452,7 +449,7 @@ export default {
         .wrapper {
           height: 50px;
           border: 3px solid $colorA;
-          border-radius: 10px;
+          border-radius: 12px;
           margin-left: 60px;
           margin-right: auto;
           @include flex();
@@ -464,12 +461,14 @@ export default {
             width: 264px;
             height: 50px;
             padding-left: 14px;
+            outline: none;
           }
 
           a {
             @include bgImg(18px, 18px, '/imgs/icon-search.png');
             margin-left: 18px;
             margin-right: 18px;
+            transition: 0.5s;
           }
 
           &:hover {
