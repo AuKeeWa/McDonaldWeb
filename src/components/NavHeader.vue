@@ -480,10 +480,4 @@ export default {
     }
   }
 }
-
-// * {
-//   outline: solid #f00 1px !important;
-//   background: #000 !important;
-//   color: #fff !important;
-// }
 </style>

@@ -28,18 +28,19 @@
                 class="youtube-play"></a>
           </div>
           <div class="footer_top_download">
-            <a href="https://apps.apple.com/tw/app/%E9%BA%A5%E7%95%B6%E5%8B%9E%E5%A0%B1%E5%A0%B1/id1094635803"><img
+            <a
+              href="https://apps.apple.com/cn/app/%E9%BA%A6%E5%BD%93%E5%8A%B3mcdonalds-%E5%88%B0%E5%BA%97%E5%8F%96%E9%A4%90-%E9%BA%A6%E5%92%96%E5%95%A1-%E9%BA%A6%E4%B9%90%E9%80%81/id1054598922"><img
                 src="images/appstore.jpg" alt="" class="footer_img"></a>
-            <a href="https://play.google.com/store/apps/details?id=tw.com.mcddaily&hl=zh_TW"><img
+            <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=zh&gl=US"><img
                 src="images/googleplay.jpg" alt="" class="footer_img"></a>
           </div>
         </div>
         <div class="footer_down">
           <div class="footer_down_word">
-            <a href="">聯絡我們</a>
-            <a href="">隱私政策</a>
-            <a href="">條款細則</a>
-            <a href="">了解更多</a>
+            <a href="https://www.mcdonalds.com.cn/page/contact">联系我们</a>
+            <a href="https://www.mcdonalds.com.cn/page/Privacy-Policy">隐私政策</a>
+            <a href="https://www.mcdonalds.com.cn/page/McDonalds-Internet-Site-Terms-and-Conditions">使用条款</a>
+            <a href="https://www.mcdonalds.com.cn/index/McD/about/company">了解更多</a>
           </div>
           <div class="footer_down_copyright">
             <a href="">© McDonald's. All rights reserved.</a>
@@ -109,7 +110,7 @@ export default {
   width: 100%;
   height: 160px;
   border-radius: 15px 15px 0 0;
-
+  clear: both;
 }
 
 .footer_top {
