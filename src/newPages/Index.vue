@@ -1,4 +1,4 @@
-<template>
+  <template>
     <div class="index">
       <!-- 首页广告 -->
       <div class="home" id="home">
