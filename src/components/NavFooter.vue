@@ -19,8 +19,7 @@
       <div class="footer">
         <div class="footer_top">
           <div class="footer_top_i">
-            <a href="https://zh-tw.facebook.com/mcdonalds.tw"><img src="images/facebook.png" alt=""
-                class="facebook"></a>
+            <a href="https://www.facebook.com/McDonalds/"><img src="images/facebook.png" alt="" class="facebook"></a>
             <a href="https://twitter.com/mcdonalds"><img src="images/twitter.png" alt="" class="twitter"></a>
             <a href="https://www.instagram.com/mcdonaldstw/?hl=zh-tw"><img src="images/instagram.png" alt=""
                 class="instagram"></a>
@@ -53,57 +52,9 @@
 </template>
 
 <script>
-export default {
-  name: 'nav-footer'
-};
 </script>
 
 <style lang="scss" scoped>
-// .footer {
-//   height: 234px;
-//   border-top: 4px solid $colorA;
-//   background: $colorB;
-//   color: $colorD;
-//   font-size: 16px;
-//   text-align: center;
-
-//   .footer-logo {
-//     margin-top: 46px;
-//     margin-bottom: 31px;
-
-//     img {
-//       width: 53px;
-//       height: 36px;
-//       margin-bottom: 13px;
-//     }
-//   }
-
-//   .footer-link {
-//     a {
-//       color: $colorD;
-//       display: inline-block;
-
-//       &::after {
-//         content: '';
-//         border-left: 2px solid $colorD;
-//         margin-left: 10px;
-//         margin-right: 10px;
-//       }
-
-//       &:last-child::after {
-//         display: none;
-//       }
-//     }
-
-//     margin-bottom: 13px;
-//   }
-
-//   .copyright {
-//     .domain {
-//       color: $colorA;
-//     }
-//   }
-// }
 .footer_box {
   position: relative;
   background-color: $colorA;
@@ -137,6 +88,8 @@ export default {
   line-height: 40px;
   margin-top: 5px;
 }
+
+
 
 .facebook {
   width: 40px;

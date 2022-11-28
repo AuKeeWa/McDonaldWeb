@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 // 全部引入elementUI
-// import ElementUI from 'element-ui' // 引入elementUI
-// import 'element-ui/lib/theme-chalk/index.css'
+import ElementUI from 'element-ui' // 引入elementUI
+import 'element-ui/lib/theme-chalk/index.css'
 // 按需引入elementUI
-import {Message,Button} from 'element-ui'
+import { Message, Button } from 'element-ui'
 import router from './router' // 路由
 import api from './api' // 导入api接口
 import VueLazyLoad from 'vue-lazyload' // 引入懒加载
@@ -45,19 +45,19 @@ import store from './store' // 引入vuex
 // Vue.use(VueAxios, axios)
 // 全部引入elementUI
 // 按需引入elementUI
-// Vue.use(ElementUI)
+Vue.use(ElementUI)
 Vue.prototype.$message = Message;
 Vue.use(Button);
 
 Vue.use(VueLazyLoad, {
-  loading: '/imgs/loading-svg/loading-bars.svg'
+    loading: '/imgs/loading-svg/loading-bars.svg'
 })
 Vue.use(VueCookie)
 Vue.prototype.$api = api // 将api挂载到vue的原型上
-Vue.config.productionTip = false  // 关闭生产模式下给出的提示
+Vue.config.productionTip = false // 关闭生产模式下给出的提示
 
 new Vue({
-  render: h => h(App), // h函数会生成一个VNode节点，render函数得到这个VNode节点之后，返回给Vue.js的mount函数渲染成真实DOM节点，并挂载到根节点上。
-  router,
-  store,
+    render: h => h(App), // h函数会生成一个VNode节点，render函数得到这个VNode节点之后，返回给Vue.js的mount函数渲染成真实DOM节点，并挂载到根节点上。
+    router,
+    store,
 }).$mount('#app')
