@@ -40,12 +40,12 @@ export default new Router({
                     component: Index,
                 },
                 {
-                    path: 'product/:id', // 动态路由
+                    path: 'product', // 动态路由
                     name: 'product',
                     // component: Product,
                     // component: resolve => require(['../pages/Product.vue'],resolve), // 路由懒加载
                     component: () =>
-                        import ('../pages/Product.vue') // 路由懒加载
+                        import ('../newPages/AllProduct.vue') // 路由懒加载
                 },
                 {
                     path: 'detail/:id',

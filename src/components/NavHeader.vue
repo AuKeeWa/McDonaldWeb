@@ -72,11 +72,11 @@
             </div>
           </div>
           <div class="item-menu">
-            <span>餐品总览</span>
+            <span href="/#/product">餐品总览</span>
             <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in foodList" :key="i">
-                  <a href="" target="_blank">
+                  <a :href="('/#/product')" target="_blank">
                     <div class="pro-img">
                       <img :src="item.img" alt="">
                     </div>
@@ -199,7 +199,7 @@ export default {
     };
   },
   mounted() {
-    this.getProductList();
+    // this.getProductList();
     let params = this.$route.params;
     console.log('this.$route.params', this.$route.params);
     if (params && params.from == 'login') {
@@ -251,16 +251,16 @@ export default {
       });
     },
     // 获取手机列表
-    getProductList() {
-      this.$api.mall
-        .goodsList({
-          categoryId: '100012',
-          pageSize: 6
-        })
-        .then((res) => {
-          this.phoneList = res.list.slice(0, 6);
-        });
-    },
+    // getProductList() {
+    //   this.$api.mall
+    //     .goodsList({
+    //       categoryId: '100012',
+    //       pageSize: 6
+    //     })
+    //     .then((res) => {
+    //       this.phoneList = res.list.slice(0, 6);//数组切片
+    //     });
+    // },
     // 跳转购物车
     goToCart() {
       this.$router.push('/cart');
@@ -308,9 +308,9 @@ export default {
       height: 112px;
       @include flex();
 
-      .header-logo {
-        // border-radius: 19px;
-      }
+      // .header-logo {
+      //   // border-radius: 19px;
+      // }
 
       .header-menu {
         display: inline-block;
@@ -371,7 +371,7 @@ export default {
 
                 // display: inline-block;
                 // float: left;
-
+                font-weight: bold;
                 color: $colorD;
               }
 
