@@ -134,67 +134,73 @@ export default {
     return {
       foodList: [
         {
-          img: '/images/dishes/burger/01.png',
+          // img: '/images/dishes/burger/01.png',
+          img: 'https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081011205699.png',
           title: '汉堡',
         },
         {
-          img: '/images/dishes/snacks/01.png',
+          // img: '/images/dishes/snacks/01.png',
+          img: 'https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208091547349086.png',
           title: '小食',
 
         },
         {
-          img: '/images/dishes/beverage/01.png',
+          // img: '/images/dishes/beverage/01.png',
+          img: 'https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208091541242793.png',
           title: '饮料',
 
         },
         {
-          img: '/images/dishes/desserts/01.png',
+          // img: '/images/dishes/desserts/01.png',
+          img: 'https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2020/05/202005270949182813.png',
           title: '甜点',
 
         },
         {
-          img: '/images/dishes/breakfast/01.png',
+          // img: '/images/dishes/breakfast/01.png',
+          img: 'https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208091558498724.png',
           title: '早餐',
 
         },
         {
-          img: '/images/dishes/cafe/01.png',
+          // img: '/images/dishes/cafe/01.png',
+          img: 'https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208292205408283.png',
           title: '咖啡',
 
         }
       ],
-      tvList: [
-        {
-          img: '/imgs/nav-img/nav-3-1.jpg',
-          title: '小米壁画电视 65英寸',
-          price: '5999元'
-        },
-        {
-          img: '/imgs/nav-img/nav-3-2.jpg',
-          title: '小米全面屏电视 60英寸',
-          price: '2999元'
-        },
-        {
-          img: '/imgs/nav-img/nav-3-3.png',
-          title: '小米电视LED 70英寸',
-          price: '3999元'
-        },
-        {
-          img: '/imgs/nav-img/nav-3-4.jpg',
-          title: '小米超清电视',
-          price: '5688元'
-        },
-        {
-          img: '/imgs/nav-img/nav-3-5.jpg',
-          title: '小米OLED 屏幕电视',
-          price: '6228元'
-        },
-        {
-          img: '/imgs/nav-img/nav-3-6.png',
-          title: '小米环绕屏电视 60英寸',
-          price: '4890元'
-        }
-      ],
+      // tvList: [
+      //   {
+      //     img: '/imgs/nav-img/nav-3-1.jpg',
+      //     title: '小米壁画电视 65英寸',
+      //     price: '5999元'
+      //   },
+      //   {
+      //     img: '/imgs/nav-img/nav-3-2.jpg',
+      //     title: '小米全面屏电视 60英寸',
+      //     price: '2999元'
+      //   },
+      //   {
+      //     img: '/imgs/nav-img/nav-3-3.png',
+      //     title: '小米电视LED 70英寸',
+      //     price: '3999元'
+      //   },
+      //   {
+      //     img: '/imgs/nav-img/nav-3-4.jpg',
+      //     title: '小米超清电视',
+      //     price: '5688元'
+      //   },
+      //   {
+      //     img: '/imgs/nav-img/nav-3-5.jpg',
+      //     title: '小米OLED 屏幕电视',
+      //     price: '6228元'
+      //   },
+      //   {
+      //     img: '/imgs/nav-img/nav-3-6.png',
+      //     title: '小米环绕屏电视 60英寸',
+      //     price: '4890元'
+      //   }
+      // ],
       phoneList: []
     };
   },
