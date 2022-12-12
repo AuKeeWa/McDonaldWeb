@@ -30,206 +30,209 @@
       <div class="asset-detail-tabs">
         <el-tabs v-model="activeName" @tab-click="handleClick">
           <el-tab-pane label="汉堡" name="first">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="inner">
-                  <div class="product-info">
-                    <h3>汉堡</h3>
-                    <p></p>
-                  </div>
-                  <div class="food-list container-fluid">
-                    <div class="row">
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Big-Mac">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081011205699.png"
-                              alt="">
-                          </div>
-                          <span class="name">巨无霸</span>
-                        </a>
-                        <!-- <button class="like">
+            <div class="content-box container-fluid">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="inner">
+                    <div class="product-info">
+                      <!-- <h3>汉堡</h3> -->
+                      <!-- <p></p> -->
+                    </div>
+                    <div class="food-list container-fluid">
+                      <div class="row">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Big-Mac">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081011205699.png"
+                                alt="">
+                            </div>
+                            <span class="name">巨无霸</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Hamburger">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081011488477.png"
-                              alt="">
-                          </div>
-                          <span class="name">汉堡包</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Hamburger">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081011488477.png"
+                                alt="">
+                            </div>
+                            <span class="name">汉堡包</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Spicy-Chicken-Filet">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081012023493.png"
-                              alt="">
-                          </div>
-                          <span class="name">麦辣鸡腿汉堡</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Spicy-Chicken-Filet">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081012023493.png"
+                                alt="">
+                            </div>
+                            <span class="name">麦辣鸡腿汉堡</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Grilled-Chicken-Sandwich">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081012161806.png"
-                              alt="">
-                          </div>
-                          <span class="name">原味板烧鸡腿堡</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Grilled-Chicken-Sandwich">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081012161806.png"
+                                alt="">
+                            </div>
+                            <span class="name">原味板烧鸡腿堡</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/McChicken">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013011355.png"
-                              alt="">
-                          </div>
-                          <span class="name">麦香鸡</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/McChicken">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013011355.png"
+                                alt="">
+                            </div>
+                            <span class="name">麦香鸡</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Filet-O-Fish">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013175111.png"
-                              alt="">
-                          </div>
-                          <span class="name">麦香鱼</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Filet-O-Fish">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013175111.png"
+                                alt="">
+                            </div>
+                            <span class="name">麦香鱼</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Cheeseburger">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013284833.png"
-                              alt="">
-                          </div>
-                          <span class="name">吉士汉堡包</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Cheeseburger">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013284833.png"
+                                alt="">
+                            </div>
+                            <span class="name">吉士汉堡包</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Double-Cheeseburger">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013411846.png"
-                              alt="">
-                          </div>
-                          <span class="name">双层吉士汉堡</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Double-Cheeseburger">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081013411846.png"
+                                alt="">
+                            </div>
+                            <span class="name">双层吉士汉堡</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/beef-sausage">
-                          <!-- <a href="javascript:;"> -->
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081014088917.png"
-                              alt="">
-                          </div>
-                          <span class="name">不素之霸双层牛堡</span>
-                        </a>
-                        <!-- <button class="like">
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/beef-sausage">
+                            <!-- <a href="javascript:;"> -->
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081014088917.png"
+                                alt="">
+                            </div>
+                            <span class="name">不素之霸双层牛堡</span>
+                          </a>
+                          <!-- <button class="like">
                                             <i class="iconfont">&#xe60c;</i><span style="display:none">+1</span>
                                         </button> -->
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/double-fof">
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208111413054231.png"
-                              alt="">
-                          </div>
-                          <span class="name">双层深海鳕鱼堡</span>
-                        </a>
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Thick-Angus-Beef-Burger-with-Bacon">
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081022028042.png"
-                              alt="">
-                          </div>
-                          <span class="name">安格斯MAX厚牛培根堡</span>
-                        </a>
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Cheese-Angus">
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081022182900.png"
-                              alt="">
-                          </div>
-                          <span class="name">安格斯MAX厚牛芝士堡</span>
-                        </a>
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Thick-Angus-Double-Beef-Burger-with-Bacon">
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081022345223.png"
-                              alt="">
-                          </div>
-                          <span class="name">双层安格斯MAX厚牛培根堡</span>
-                        </a>
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Thick-Angus-Double-Beef-Burger-with-Cheese-Sauce">
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081023547031.png"
-                              alt="">
-                          </div>
-                          <span class="name">双层安格斯MAX厚牛芝士堡</span>
-                        </a>
-                      </div>
-                      <div class="col-md-3 col-sm-4 col-xs-6">
-                        <a href="/product/Bacon-Lettuce-Tomato-Double-Beef-Burger">
-                          <div class="pic">
-                            <img
-                              src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/09/202209261029176483.png"
-                              alt="">
-                          </div>
-                          <span class="name">培根蔬萃双层牛堡</span>
-                        </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/double-fof">
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208111413054231.png"
+                                alt="">
+                            </div>
+                            <span class="name">双层深海鳕鱼堡</span>
+                          </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Thick-Angus-Beef-Burger-with-Bacon">
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081022028042.png"
+                                alt="">
+                            </div>
+                            <span class="name">安格斯MAX厚牛培根堡</span>
+                          </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Cheese-Angus">
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081022182900.png"
+                                alt="">
+                            </div>
+                            <span class="name">安格斯MAX厚牛芝士堡</span>
+                          </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Thick-Angus-Double-Beef-Burger-with-Bacon">
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081022345223.png"
+                                alt="">
+                            </div>
+                            <span class="name">双层安格斯MAX厚牛培根堡</span>
+                          </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Thick-Angus-Double-Beef-Burger-with-Cheese-Sauce">
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/08/202208081023547031.png"
+                                alt="">
+                            </div>
+                            <span class="name">双层安格斯MAX厚牛芝士堡</span>
+                          </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                          <a href="/product/Bacon-Lettuce-Tomato-Double-Beef-Burger">
+                            <div class="pic">
+                              <img
+                                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/attachment/2022/09/202209261029176483.png"
+                                alt="">
+                            </div>
+                            <span class="name">培根蔬萃双层牛堡</span>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </el-tab-pane>
           <el-tab-pane label="小食" name="second">
 
@@ -595,133 +598,239 @@ export default {
   }
 }
 
+div {
+  display: block;
+}
+
+.product-list .content-box {
+  margin-bottom: 75px;
+}
+
+.content-box {
+  position: relative;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .row {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
   margin-right: -15px;
   margin-left: -15px;
 }
 
-.col-md-12 col-sm-12 col-xs-12 {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  float: left;
-  width: 100%;
 }
 
-.inner {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
+.content-box .row>.col-md-9>.inner,
+.content-box .row>.col-md-12>.inner,
+.news-detail .content-box .row>.col-md-12>.inner,
+.image-news-detail .content-box .row>.col-md-12>.inner,
+.product-safety-detail .content-box .row>.col-md-12>.inner,
+.product-list .content-box .row>.col-md-12>.inner,
+.product-detail .content-box .row>.col-md-12>.inner,
+.page-detail .content-box .row>.col-md-9>.inner,
+.page-detail .content-box .row>.col-md-12>.inner {
   margin-bottom: 20px;
   padding-bottom: 50px;
+  background: #333;
   background: #f7f7f7;
 }
 
-.product-info {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
-  max-width: 645px;
-  margin: 0 auto;
-  padding: 40px 0 20px;
-}
+// .product-info {
+//   max-width: 645px;
+//   margin: 0 auto;
+//   padding: 40px 0 20px;
+//   font-size: xx-large;
+// }
 
-.food-list container-fluid {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
-  padding-right: 15px;
-  padding-left: 15px;
+.food-list {
   position: relative;
   max-width: 645px;
   margin: 0 auto;
   padding-top: 30px;
+  border-top: 1px solid #2e2e2e;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.row {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
-  margin: 0 -10px;
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-
-.col-md-3 col-sm-4 col-xs-6 {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: #2d2d2d;
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  box-sizing: border-box;
-  position: relative;
-  min-height: 1px;
-  float: left;
-  width: 25%;
+.food-list .col-md-3 {
   margin-bottom: 30px;
   padding: 0 10px;
   text-align: center;
 }
 
-.a {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: transparent;
-  color: #337ab7;
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9 {
+  float: left;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
   text-decoration: none;
   outline: none;
 }
 
-.pic {
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font: normal 12px/1.5 "speedee", -apple-system, "Helvetica Neue", Helvetica,
-    "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  color: #337ab7;
-  box-sizing: border-box;
+a {
+  color: #DA6C44;
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+.food-list .row {
+  margin: 0 -10px;
+}
+
+.food-list img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.food-list .pic {
   display: block;
+  height: 138px;
   margin: 0 auto 5px auto;
   text-align: center;
   font-size: 0;
-  height: 270px;
-  width: 270px;
+  width: 138px;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 </style>
