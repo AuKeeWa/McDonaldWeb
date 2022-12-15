@@ -1774,7 +1774,10 @@
         <h2>比拿铁更奶更浓，<br />麦咖啡奶铁问世！</h2>
         <p>麦咖啡全新独家拼配M10 PLUS咖啡豆，配方荣获2022 IIAC国际咖啡品鉴大赛金奖。
           <br />被誉为“咖啡界的奥斯卡”，获奖配方全线应用在升级后的麦咖啡饮品中。
-          <br /><br />M10 PLUS咖啡豆
+        </p>
+        <!-- <br /><br />M10 PLUS咖啡豆 -->
+        <h2>M10 PLUS咖啡豆</h2>
+        <p>
           <br />由危地马拉、埃塞俄比亚、哥伦比亚和卢旺达四国咖啡豆拼配而成，
           <br />自带柑橘、焦糖、黑巧风味。
         </p>
@@ -1788,10 +1791,11 @@
             <!-- 关闭按钮 -->
             <span class="icon-close" @click="closeVideo"></span>
             <!-- 视频 -->
-            <video src="/imgs/product/video.mp4" muted autoplay controls="controls"></video>
+            <video src="/images/dishes/cafe/video.mp4" muted autoplay controls="controls"></video>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -1879,7 +1883,7 @@ export default {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1000px;
+  margin-bottom: 1985px;
   position: relative;
   text-align: center;
 }
@@ -1995,28 +1999,30 @@ export default {
     // }
 
     .item-video {
-      height: 1044px;
-      background-color: #070708;
-      margin-bottom: 76px;
-      color: #ffffff;
+      height: 1120px;
+      background-color: #ffffff;
+      // margin-top: 76px;
+      margin-bottom: 0px;
+      color: #000000;
       text-align: center;
 
       h2 {
         font-size: 60px;
-        padding-top: 82px;
-        margin-bottom: 47px;
+        // padding-top: 82px;
+        margin-bottom: 8px;
+        color: $colorA;
       }
 
       p {
         font-size: 24px;
-        margin-bottom: 58px;
+        margin-bottom: 8px;
       }
 
       .video-bg {
-        background: url('/imgs/product/gallery-1.png') no-repeat center;
+        background: url('https://sghimages.shobserver.com/img/catch/2022/09/03/fefcb29b-da84-4fe6-bc3f-e233a75ca302.jpg') no-repeat center;
         background-size: cover;
-        width: 1226px;
-        height: 540px;
+        width: 1080px;
+        height: 675px;
         margin: 0 auto 120px;
         cursor: pointer;
       }
@@ -2297,6 +2303,7 @@ div {
   padding-right: 15px;
   padding-left: 15px;
   background-color: #f7f7f7;
+  box-sizing: border-box;
 }
 
 a,
@@ -2338,9 +2345,5 @@ a {
 
 img {
   border: 0;
-}
-
-* {
-  box-sizing: border-box;
 }
 </style>
