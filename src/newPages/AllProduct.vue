@@ -13,7 +13,7 @@
       <div v-if="(activeName == 'fourth')" class="item-bg-4"></div>
       <div v-if="(activeName == 'fifth')" class="item-bg-5"></div>
       <div v-if="(activeName == 'sixth')" class="item-bg-6"></div>
-
+      <el-backtop class="backtop"></el-backtop>
       <div class="asset-detail-tabs">
         <el-tabs v-model="activeName" @tab-click="handleClick">
           <el-tab-pane label="汉堡" name="first">
@@ -219,7 +219,10 @@
                 </div>
               </div>
             </div>
-
+            <div class="cmsMainBox">
+              <img
+                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2021/08/04/202108041611589888/202108041611589888.gif?&rand=0827">
+            </div>
           </el-tab-pane>
           <el-tab-pane label="小食" name="second">
             <div class="content-box container-fluid">
@@ -459,6 +462,10 @@
                 </div>
               </div>
             </div>
+            <div class="cmsMainBox-1">
+              <img
+                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2022/08/27/202208271610061166/202208271610061166_640_0.jpg?&rand=0827">
+            </div>
           </el-tab-pane>
           <el-tab-pane label="饮料" name="third">
             <div class="content-box container-fluid">
@@ -684,6 +691,10 @@
                 </div>
               </div>
             </div>
+            <div class="cmsMainBox-1">
+              <img
+                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2022/08/27/202208271610061166/202208271610061166_640_0.jpg?&rand=0827">
+            </div>
           </el-tab-pane>
           <el-tab-pane label="甜点" name="fourth">
             <div class="content-box container-fluid">
@@ -796,6 +807,10 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="cmsMainBox-2">
+              <img
+                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2022/08/27/202208271610061166/202208271610061166_640_0.jpg?&rand=0827">
             </div>
           </el-tab-pane>
           <el-tab-pane label="早餐" name="fifth">
@@ -1189,6 +1204,14 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="cmsMainBox">
+              <img
+                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2022/07/13/202207131540578143/202207131540578143_1120_340.jpg?&rand=0827">
+            </div>
+            <div class="cmsMainBox">
+              <img
+                src="https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2020/06/19/202006191219264390/202006191219264390_1120_340.jpg?&rand=0827">
             </div>
           </el-tab-pane>
           <el-tab-pane label="咖啡" name="sixth">
@@ -1755,8 +1778,7 @@
         </el-tabs>
       </div>
 
-      <!-- <div class="item-bg-2"></div>
-      <div class="item-bg-3"></div> -->
+
       <!-- 轮播图 -->
       <!-- <div class="item-swiper">
         <swiper :options="swiperOption">
@@ -1863,6 +1885,15 @@ export default {
 };
 </script>
 <style lang="scss" >
+.backtop {
+  background-color: $colorA;
+  color: #fff;
+
+  &:hover {
+    background-color: #DA6C44;
+  }
+}
+
 .tabs {
   text-align: center;
   top: 0px;
@@ -1972,17 +2003,37 @@ export default {
       text-align: center;
     }
 
-    // .item-bg-2 {
-    //   background: url(/imgs/product/product-bg-2.png) no-repeat center;
-    //   height: 480px;
-    //   background-size: 1226px 397px;
-    // }
+    .cmsMainBox img {
+      display: block;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      margin: 0 auto;
+    }
 
-    // .item-bg-3 {
-    //   background: url(/imgs/product/product-bg-3.png) no-repeat center;
-    //   height: 638px;
-    //   background-size: cover;
-    // }
+    .cmsMainBox-1 img {
+      display: block;
+      // max-width: 100%;
+      width: 820px;
+      height: auto;
+      margin: 0 auto;
+      // transform: scale(1.8);
+    }
+
+    .cmsMainBox-2 img {
+      padding-top: 100px;
+      display: block;
+      max-width: 100%;
+      width: 1000px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .item-bg-8 {
+      background: url(/imgs/product/product-bg-3.png) no-repeat center;
+      // height: 638px;
+      // background-size: cover;
+    }
 
     // .item-swiper {
     //   margin: 36px auto 52px;
@@ -2008,7 +2059,7 @@ export default {
 
       h2 {
         font-size: 60px;
-        // padding-top: 82px;
+        padding-top: 11px;
         margin-bottom: 8px;
         color: $colorA;
       }
