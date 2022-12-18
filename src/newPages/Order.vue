@@ -4,7 +4,7 @@
             <!-- 菜单侧边栏导航 -->
             <div class="MenuNav" data-v-2033ffff="">
                 <div class="logo" data-v-2033ffff="">
-                    <img src="/images/mcd-logo-red.jpg">
+                    <img data-v-2033ffff="" src="/images/mcd-logo-red.jpg">
                 </div>
                 <ul class="NavUI" data-v-2033ffff="">
                     <li id="tag01" data-v-2033ffff="">
@@ -51,7 +51,7 @@
                 </ul>
             </div>
             <!-- 菜单详情 -->
-            <div class="MainMenu" data-v-2033ffff="">
+            <div class="MenuMain" data-v-2033ffff="">
                 <div class="headerFixed" data-v-2033ffff="">
                     <!--登录、购物车 todo-->
                     <div class="header" data-v-20330303="" data-v-2033ffff="">
@@ -911,5 +911,132 @@
 </script>
 
 <style>
+#menu[data-v-2033ffff]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu{
+    line-height: 1.5;
+    color:#515a6e;
+}
+
+*, :before,:after{
+    box-sizing: border-box;
+}
+
+.menu .MenuNav[data-v-2033ffff]{
+    position: fixed;
+    width: 220px;
+    background: #fff;
+    min-height: 100%;
+    box-shadow: 2px 0 10px #ddd;
+    z-index: 9;
+}
+
+.menu .MenuNav .logo[data-v-2033ffff]{
+    padding: 0 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu .MenuNav .logo img[data-v-2033ffff]{
+    width: 120px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+img{
+    border-style: none;
+}
+
+.menu .MenuNav .NavUI[data-v-20331020]{
+    margin-top: 30px;
+    text-align: left;
+    font-weight: 400;
+}
+
+li[data-v-2033ffff], ul[data-v-2033ffff]{
+    list-style: none;
+}
+
+.menu .MenuNav .NavUI li[data-v-20331020]{
+    font-size: 19.5px;
+    position: relative;
+}
+
+.menu .MenuNav .NavUI li .liInit[data-v-2033ffff]{
+    padding: 8px;
+    cursor: pointer;
+    padding-left: 76px;
+}
+
+.menu .MenuNav .NavUI li a[data-v-2033ffff]{
+    color: darkorange;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    background: 0 0 ;
+    outline: 0;
+    transition: color .2s ease;
+}
+
+.menu .MenuNav .NavUI li .on[data-v-2033ffff], .menu .MenuNav .NavUI li .on[data-v-2033ffff]::after{
+    background: #d30008 !important;
+}
+
+.menu .MenuNav .NavUI li .on a[data-v-2033ffff], .menu .MenuNav .NavUI li .on span[data-v-2033ffff]::after{
+    color: #fff;
+}
+
+.menu .MenuMain[data-v-2033ffff]{
+    margin-left: 220px;
+    background: #fff;
+    min-width: 1000px;
+    padding-bottom: 450px;
+}
+
+.menu .MenuMain .headerFixed[data-v-2033ffff]{
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    left: 220px;
+}
+
+.header[data-v-20330303]{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 70px;
+    background: #f9f9f9;
+    color: #fff;
+}
+
+
+.header .header_swiper_container[data-v-20330303]{
+    -webkit-box-flex: 1;
+    flex: 1;
+    height: 70px;
+    text-align: left;
+}
+
+.header .header_swiper_container .highLight[data-v-20330303]{
+    background: #f9f9f9;
+}
+
+.el-carousel{
+    position: relative;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+}
+
 
 </style>
