@@ -1,7 +1,7 @@
 [TOC]
 # 请务必关闭AdGuard
 # 1. 项目说明
-1. 仿PC端麦当劳中国，采用vue.js(2.x)+elementUI开发。
+1. PC端麦当劳优化，采用vue.js(2.x)+elementUI开发。
 2. 主要包含页面：商城首页、商品详情页、购物车页、下单页、登录页。
 2. 代码分支：master分支为：静态页面+接口交互
 3. 前端框架：vue2.x。
@@ -11,6 +11,7 @@
    * jack/jack
 6. 效果图
 ![首页](https://github.com/AuKeeWa/Screenshots/blob/main/HomePage.png "index.png")
+![首页](https://github.com/AuKeeWa/Screenshots/blob/main/AllProductPage.png "AllProduct.png")
 
 # 2. 目录说明
 ```

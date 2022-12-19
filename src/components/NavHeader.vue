@@ -72,7 +72,7 @@
             </div>
           </div>
           <div class="item-menu">
-            <span href="/#/product">餐品总览</span>
+            <span onclick="javascript:window.open('/#/product')">餐品总览</span>
             <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in foodList" :key="i">
@@ -88,7 +88,7 @@
             </div>
           </div>
           <div class="item-menu">
-            <span>网上订餐</span>
+            <span onclick="javascript:window.open('/#/order')">网上订餐</span>
             <!-- <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in tvList" :key="i">

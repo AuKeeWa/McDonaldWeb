@@ -78,7 +78,7 @@ export default new Router({
             path: '/order',
             name: 'order',
             component: () =>
-                import ('../pages/Order.vue'), // 路由懒加载
+                import ('../newPages/Order.vue'), // 路由懒加载
             children: [{
                     path: 'list',
                     name: 'order-list',
