@@ -10,7 +10,7 @@ import api from './api' // 导入api接口
 import VueLazyLoad from 'vue-lazyload' // 引入懒加载
 import VueCookie from 'vue-cookie' // 引入cookie
 import store from './store' // 引入vuex
-
+import "./assets/ifont/iconfont.css";
 // import axios from 'axios' // 网络请求：axios是一个库，并不是vue中的第三方插件，使用时不能通过Vue.use()安装插件，需要在原型上进行绑定
 // import VueAxios from 'vue-axios' // vue-axios是将axios集成到Vue.js的小包装器，可以像插件一样进行安装
 // import env from './config/env' // 环境变量

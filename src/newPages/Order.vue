@@ -134,8 +134,16 @@
                                                 <div class="BtnPos" >
                                                     <div >
                                                         <div class="add-check flexPos">
+                                                            <!-- <div class="left">
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-08">
+                                                                    ::before
+                                                                </span>
+                                                            </div>
+                                                            <div class="number">
+                                                                <span class="text"></span>
+                                                            </div> -->
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -175,10 +183,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -221,7 +228,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -264,7 +271,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -307,7 +314,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -350,7 +357,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -393,7 +400,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -436,7 +443,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -496,7 +503,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -537,10 +544,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -580,10 +586,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -623,10 +628,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -666,10 +670,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -710,10 +713,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -753,10 +755,9 @@
                                                 </div>
                                                 <div class="BtnPos" >
                                                     <div >
-                                                        <div class="add-check flexPos" 
-                                                            >
+                                                        <div class="add-check flexPos">
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -799,7 +800,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -842,7 +843,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -885,7 +886,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -928,7 +929,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -971,7 +972,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1014,7 +1015,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1074,7 +1075,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1117,7 +1118,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1160,7 +1161,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1203,7 +1204,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1246,7 +1247,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1289,7 +1290,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1332,7 +1333,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1375,7 +1376,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1435,7 +1436,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1478,7 +1479,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1521,7 +1522,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1564,7 +1565,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1624,7 +1625,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1667,7 +1668,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1710,7 +1711,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1753,7 +1754,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1813,7 +1814,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1856,7 +1857,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1899,7 +1900,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1942,7 +1943,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -1985,7 +1986,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2045,7 +2046,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2088,7 +2089,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2131,7 +2132,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2174,7 +2175,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2217,7 +2218,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2260,7 +2261,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2303,7 +2304,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2346,7 +2347,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2389,7 +2390,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2449,7 +2450,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2492,7 +2493,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2535,7 +2536,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2578,7 +2579,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2621,7 +2622,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2664,7 +2665,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2708,7 +2709,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -2751,7 +2752,7 @@
                                                         <div class="add-check flexPos" 
                                                             >
                                                             <div class="right" >
-                                                                <span class="iconfont icon-tubiaomianxing02-05" >
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" >
                                                                     ::before
                                                                 </span>
                                                             </div>
@@ -3119,6 +3120,45 @@ a {
 .add-check.flexPos{
     -webkit-box-pack: end;
     justify-content: flex-end;
+}
+
+.add-check > div{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.add-check > div.right{
+    padding-left: 0;
+}
+
+.add-check > div.left{
+    opacity: 0;
+    padding-right: 0;
+}
+
+.span.text{
+    opacity: 0; //这个为0 不可见
+    transition: all .3s;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.dmicon{
+    opacity: 1;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+
+.add-check .dmicon{
+    font-size: 34px;
+    color: #d00;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
 }
 
 </style>
