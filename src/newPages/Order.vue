@@ -2677,7 +2677,8 @@
                                     </div>
                                     <div class="displayinlineblock FoodBox" data-v-2033ffff="">
                                         <div class="FoodImgBox" data-v-2033ffff="">
-                                            <img data-v-2033ffff="" src="../../public/images/menu/饮品/Fuze Tea柠檬红茶味饮料.png">
+                                            <img data-v-2033ffff=""
+                                                src="../../public/images/menu/饮品/Fuze Tea柠檬红茶味饮料.png">
                                             <div class="imgBoxMask" data-v-2033ffff="">
                                                 <span class="content" data-v-2033ffff="">
                                                     商务人士的最爱！
@@ -2777,11 +2778,18 @@
 
 </script>
 
-<style>
+<style lang="scss">
 #menu[data-v-2033ffff] {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+}
+
+.displayinlineblock,
+.FoodBox {
+    display: inline-block;
+    padding: 5px;
+    transform: scale(0.85);
 }
 
 .menu {
@@ -2808,6 +2816,7 @@
     padding: 0 0;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .menu .MenuNav .logo img[data-v-2033ffff] {
@@ -2842,11 +2851,13 @@ ul[data-v-2033ffff] {
 .menu .MenuNav .NavUI li .liInit[data-v-2033ffff] {
     padding: 8px;
     cursor: pointer;
-    padding-left: 76px;
+    padding-top: 20px;
+    padding-left: 46px;
+    font-size: x-large;
 }
 
 .menu .MenuNav .NavUI li a[data-v-2033ffff] {
-    color: darkorange;
+    color: $colorA;
     cursor: pointer;
     font-weight: 700;
 }
