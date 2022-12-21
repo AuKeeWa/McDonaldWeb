@@ -14,28 +14,28 @@
             <div class="order-info">
               <h2>订单提交成功！去付款咯～</h2>
               <p>请在<span>30分</span>内完成支付, 超时后将取消订单</p>
-              <p>收货信息：{{addressInfo}}</p>
+              <p>收货信息：{{ addressInfo }}</p>
             </div>
             <div class="order-total">
-              <p>应付总额：<span>{{payment}}</span>元</p>
-              <p>订单详情<em class="icon-down" :class="{'up':showDetail}" @click="showDetail=!showDetail"></em></p>
+              <p>应付总额：<span>{{ payment }}</span>元</p>
+              <p>订单详情<em class="icon-down" :class="{ 'up': showDetail }" @click="showDetail = !showDetail"></em></p>
             </div>
           </div>
           <div class="item-detail" v-if="showDetail">
             <div class="item">
               <div class="detail-title">订单号：</div>
-              <div class="detail-info theme-color">{{orderId}}</div>
+              <div class="detail-info theme-color">{{ orderId }}</div>
             </div>
             <div class="item">
               <div class="detail-title">收货信息：</div>
-              <div class="detail-info">{{addressInfo}}</div>
+              <div class="detail-info">{{ addressInfo }}</div>
             </div>
             <div class="item good">
               <div class="detail-title">商品名称：</div>
               <div class="detail-info">
                 <ul>
-                  <li v-for="(item,index) in orderDetail" :key="index">
-                    <img v-lazy="item.productImage" />{{item.productName}}
+                  <li v-for="(item, index) in orderDetail" :key="index">
+                    <img v-lazy="item.productImage" />{{ item.productName }}
                   </li>
                 </ul>
               </div>
@@ -50,8 +50,8 @@
           <h3>选择以下支付方式付款</h3>
           <div class="pay-way">
             <p>支付平台</p>
-            <div class="pay pay-ali" :class="{'checked':payType==1}" @click="payType = 1"></div>
-            <div class="pay pay-wechat" :class="{'checked':payType==2}" @click="payType = 2"></div>
+            <div class="pay pay-ali" :class="{ 'checked': payType == 1 }" @click="payType = 1"></div>
+            <div class="pay pay-wechat" :class="{ 'checked': payType == 2 }" @click="payType = 2"></div>
           </div>
           <div class="go-pay">
             <el-button type="primary" size="default" @click="submitPay(payType)">去支付</el-button>
@@ -62,7 +62,8 @@
     <!-- 微信支付二维码弹窗 -->
     <scan-pay-code v-if="showPay" @close="closePayModal" :img="payImg"></scan-pay-code>
     <!-- 支付确认弹窗 -->
-    <modal title="支付确认" btnType="3" :showModal="showPayModal" sureText="查看订单" cancelText="未支付" @cancel="showPayModal=false" @submit="goOrderList">
+    <modal title="支付确认" btnType="3" :showModal="showPayModal" sureText="查看订单" cancelText="未支付"
+      @cancel="showPayModal = false" @submit="goOrderList">
       <template v-slot:body>
         <p>您确认是否完成支付？</p>
       </template>
@@ -118,11 +119,11 @@ export default {
       } else {
         // 微信
         this.$api.mall.submitPay({
-            orderId: this.orderId,
-            orderName: '小米商城',
-            amount: 0.01, //单位元
-            payType: 2 //1支付宝，2微信
-          })
+          orderId: this.orderId,
+          orderName: '麦当劳',
+          amount: 0.01, //单位元
+          payType: 2 //1支付宝，2微信
+        })
           .then((res) => {
             QRCode.toDataURL(res.content)
               .then((url) => {
@@ -169,14 +170,17 @@ export default {
     background-color: #f5f5f5;
     padding-top: 30px;
     padding-bottom: 61px;
+
     .order-wrap {
       padding: 62px 50px;
       background-color: #fff;
       font-size: 14px;
       margin-bottom: 30px;
+
       .item-order {
         display: flex;
         align-items: center;
+
         .icon-succ {
           width: 60px;
           height: 60px;
@@ -185,28 +189,35 @@ export default {
           background-size: 35px;
           margin-right: 40px;
         }
+
         .order-info {
           margin-right: 248px;
+
           h2 {
             font-size: 24px;
             color: #333333;
             margin-bottom: 20px;
           }
+
           p {
             color: #666666;
+
             span {
               color: #ff6700;
             }
           }
         }
+
         .order-total {
-          & > p:first-child {
+          &>p:first-child {
             margin-bottom: 30px;
           }
+
           span {
             font-size: 28px;
             color: #ff6700;
           }
+
           .icon-down {
             display: inline-block;
             width: 14px;
@@ -216,30 +227,37 @@ export default {
             margin-left: 9px;
             transition: all 0.5s;
             cursor: pointer;
+
             // 旋转180度
             &.up {
               transform: rotate(180deg);
             }
           }
+
           .icon-up {
             transform: rotate(180deg);
           }
         }
       }
+
       .item-detail {
         border-top: 1px solid #d7d7d7;
         padding-top: 47px;
         padding-left: 130px;
         font-size: 14px;
         margin-top: 45px;
+
         .item {
           margin-bottom: 19px;
+
           .detail-title {
             float: left;
             width: 100px;
           }
+
           .detail-info {
             display: inline-block;
+
             img {
               width: 30px;
               vertical-align: middle;
@@ -248,10 +266,12 @@ export default {
         }
       }
     }
+
     .item-pay {
       padding: 26px 50px 72px;
       background-color: #ffffff;
       color: #333333;
+
       h3 {
         font-size: 20px;
         font-weight: 200;
@@ -260,31 +280,38 @@ export default {
         border-bottom: 1px solid #d7d7d7;
         margin-bottom: 26px;
       }
+
       .pay-way {
         font-size: 18px;
+
         .pay {
           display: inline-block;
           width: 188px;
           height: 64px;
           border: 1px solid #d7d7d7;
           cursor: pointer;
+
           &:last-child {
             margin-left: 20px;
           }
+
           &.checked {
             border: 1px solid #ff6700;
           }
         }
+
         .pay-ali {
           background: url('/imgs/pay/icon-ali.png') no-repeat center;
           background-size: 103px 38px;
           margin-top: 19px;
         }
+
         .pay-wechat {
           background: url('/imgs/pay/icon-wechat.png') no-repeat center;
           background-size: 103px 38px;
         }
       }
+
       .go-pay {
         text-align: center;
       }

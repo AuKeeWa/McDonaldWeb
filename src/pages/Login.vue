@@ -1,10 +1,6 @@
 <template>
   <div class="login">
-    <div class="container">
-      <a href="/#/index">
-        <img src="/imgs/login-logo.png" alt />
-      </a>
-    </div>
+
     <div class="wrapper">
       <div class="container">
         <div class="login-form">
@@ -39,7 +35,7 @@
 </template>
 <script>
 import NavFooter from '@/components/NavFooter.vue';
-import {mapActions} from "vuex";
+import { mapActions } from "vuex";
 export default {
   name: 'login',
   components: { NavFooter },
@@ -75,10 +71,10 @@ export default {
     },
     register() {
       this.$api.mall.register({
-          username: 'admin1',
-          password: 'admin1',
-          email: 'admin1@qq.com'
-        })
+        username: 'admin1',
+        password: 'admin1',
+        email: 'admin1@qq.com'
+      })
         .then(() => {
           this.$message.success('恭喜您，注册成功！');
         })
@@ -88,17 +84,21 @@ export default {
 </script>
 <style lang="scss">
 .login {
-  & > .container {
+  &>.container {
     height: 113px;
+
     img {
       width: auto;
       height: 100%;
     }
   }
+
   .wrapper {
-    background: url('/imgs/login-bg.jpg') no-repeat center;
+    background: url('https://officialwebsitestorage.blob.core.chinacloudapi.cn/public/upload/photo_db/2022/12/07/202212071725389413/202212071725389413_1440_743.jpg?&rand=0827') no-repeat center;
+
     .container {
       height: 576px;
+
       .login-form {
         box-sizing: border-box;
         padding-left: 31px;
@@ -109,24 +109,29 @@ export default {
         position: absolute;
         bottom: 13px;
         right: 0px;
+
         h3 {
           line-height: 23px;
           font-size: 24px;
           text-align: center;
           margin: 40px auto 49px;
+
           .checked {
-            color: #ff6600;
+            color: $colorA;
           }
+
           .sep-line {
             margin: 0 32px;
           }
         }
+
         .input {
           display: inline-block;
           width: 348px;
           height: 50px;
           border: 1px solid #e5e5e5;
           margin-bottom: 20px;
+
           input {
             width: 100%;
             height: 100%;
@@ -134,33 +139,40 @@ export default {
             padding: 18px;
           }
         }
+
         .btn {
           width: 100%;
           line-height: 50px;
           margin-top: 10px;
           font-size: 16px;
         }
+
         .tips {
           margin-top: 14px;
           display: flex;
           justify-content: space-between;
           font-size: 14px;
           cursor: pointer;
+
           .sms {
-            color: #ff6600;
+            color: $colorA;
           }
+
           .reg {
             color: #999999;
+
             span {
               margin: 0 7px;
             }
           }
         }
+
         .btn-box {
           border-radius: 5px;
           line-height: 60px;
           text-align: center;
           background-color: $colorA;
+
           a {
             color: #fff;
           }
@@ -168,8 +180,9 @@ export default {
       }
     }
   }
-  .footer {
-    background: #fff;
-  }
+
+  // .footer {
+  //   // background: #fff;
+  // }
 }
 </style>

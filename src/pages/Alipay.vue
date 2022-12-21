@@ -28,7 +28,7 @@ export default {
       this.$api.mall
         .submitPay({
           orderId: this.orderId,
-          orderName: '小米商城', // 扫码支付时订单名称
+          orderName: '麦当劳', // 扫码支付时订单名称
           amount: 0.01, // 单位元
           payType: 1 // 1支付宝，2微信
         })
@@ -46,4 +46,5 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
 </style>

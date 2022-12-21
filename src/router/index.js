@@ -54,8 +54,17 @@ export default new Router({
                     // component: resolve => require(['../pages/Detail.vue'], resolve), // 路由懒加载
                     component: () =>
                         import ('../pages/Detail.vue') // 路由懒加载
-                }
+                },
+
             ]
+        },
+        {
+            path: '/menu', // 动态路由
+            name: 'menu',
+            // component: Product,
+            // component: resolve => require(['../pages/Product.vue'],resolve), // 路由懒加载
+            component: () =>
+                import ('../newPages/Menu.vue') // 路由懒加载
         },
         // 登录
         {
@@ -78,7 +87,7 @@ export default new Router({
             path: '/order',
             name: 'order',
             component: () =>
-                import ('../newPages/Order.vue'), // 路由懒加载
+                import ('../pages/Order.vue'), // 路由懒加载
             children: [{
                     path: 'list',
                     name: 'order-list',

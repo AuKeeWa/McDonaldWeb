@@ -1,22 +1,23 @@
 <template>
   <div>
     <router-view />
-    <service-bar />
+    <!-- <service-bar /> -->
     <nav-footer />
   </div>
 </template>
 
 <script>
 import NavFooter from '@/components/NavFooter.vue';
-import ServiceBar from '@/components/ServiceBar.vue';
+// import ServiceBar from '@/components/ServiceBar.vue';
 export default {
   name: 'order',
-  components: { NavFooter, ServiceBar },
+  components: { NavFooter, },
   data() {
     return {};
   },
-  mounted() {}
+  mounted() { }
 };
 </script>
 <style lang='scss' scoped>
+
 </style>
