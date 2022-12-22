@@ -15,7 +15,7 @@ module.exports = {
         proxy: { // 设置代理
             // 拦截
             '/api': {
-                // target: 'http://mall-pre.springboot.cn', // 代理的目标URL地址
+                target: 'http://mall-pre.springboot.cn', // 代理的目标URL地址 （未知是否应该修改为后端地址）
                 ws: true, // 如果要代理 websockets
                 changeOrigin: true, // 是否要将host地址更改为target地址
                 pathRewrite: {

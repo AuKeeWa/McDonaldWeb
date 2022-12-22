@@ -4,12 +4,12 @@
             <!-- 菜单侧边栏导航 -->
             <div class="MenuNav">
                 <div class="logo">
-                    <img src="/images/mcd-logo-red.jpg">
+                    <img src="/images/logo-80 2.png">
                 </div>
                 <ul class="NavUI">
                     <li id="tag00">
                         <div class="liInit">
-                            <a data-cl-id="2022120700">返回首页</a>
+                            <a data-cl-id="2022120700" :href="('/#/index')">返回首页</a>
                         </div>
                     </li>
                     <li id="tag01">
@@ -71,7 +71,7 @@
                             <ul class="loginInfo">
                                 <li>
                                     <span class="displayblock iconfont icon-yonghu fontsize30">
-                                        
+
                                     </span>
                                     <span class="displayblock">
                                         登录
@@ -79,7 +79,7 @@
                                 </li>
                                 <li>
                                     <span class="displayblock iconfont icon-gouwuche fontsize30">
-                                        
+
                                     </span>
                                     <span class="displayblock">
                                         餐车
@@ -96,7 +96,7 @@
                             <div id="tag01x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
-                                        鸡肉汉堡                      
+                                        鸡肉汉堡
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -148,7 +148,7 @@
                                                             </div> -->
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -190,7 +190,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -232,7 +232,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -274,7 +274,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -316,7 +316,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -358,7 +358,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -400,7 +400,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -442,7 +442,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -461,7 +461,7 @@
                             <div id="tag02x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
-                                        巨无霸牛鱼肉堡                  
+                                        巨无霸牛鱼肉堡
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -500,7 +500,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -542,7 +542,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -584,7 +584,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -626,7 +626,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -668,7 +668,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -710,7 +710,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -752,7 +752,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -794,7 +794,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -836,7 +836,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -878,7 +878,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -920,7 +920,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -962,7 +962,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1004,7 +1004,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1024,7 +1024,7 @@
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         炸鸡
-                                        
+
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1063,7 +1063,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1105,7 +1105,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1147,7 +1147,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1189,7 +1189,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1231,7 +1231,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1273,7 +1273,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1315,7 +1315,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1357,7 +1357,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1377,7 +1377,7 @@
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         金拱门桶
-                                        
+
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1416,7 +1416,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1458,7 +1458,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1500,7 +1500,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1542,7 +1542,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1562,7 +1562,7 @@
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         开心乐园餐
-                                        
+
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1601,7 +1601,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1643,7 +1643,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1685,7 +1685,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1727,7 +1727,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1747,7 +1747,7 @@
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         500大卡套餐
-                                        
+
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1786,7 +1786,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1828,7 +1828,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1870,7 +1870,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1912,7 +1912,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1954,7 +1954,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1974,7 +1974,7 @@
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         小食甜品/其他
-                                        
+
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -2013,7 +2013,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2055,7 +2055,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2097,7 +2097,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2139,7 +2139,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2181,7 +2181,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2223,7 +2223,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2265,7 +2265,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2307,7 +2307,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2349,7 +2349,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2369,7 +2369,7 @@
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         饮品
-                                        
+
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -2408,7 +2408,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2450,7 +2450,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2492,7 +2492,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2534,7 +2534,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2576,7 +2576,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2618,7 +2618,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2660,7 +2660,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2702,7 +2702,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    
+
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2766,11 +2766,12 @@
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
+    padding-right: 70px;
 }
 
 .menu .MenuNav .logo img {
-    width: 120px;
-    border-radius: 30px;
+    width: 100px;
+    // border-radius: 30px;
 }
 
 .logo {
@@ -2806,7 +2807,7 @@ ul {
 }
 
 .menu .MenuNav .NavUI li a {
-    color: $colorA;
+    color: #ffa700;
     cursor: pointer;
     font-weight: 700;
 }
@@ -2879,7 +2880,7 @@ a {
 }
 
 .header .userInfo.highLight {
-    background-color: darkgoldenrod;
+    background-color: #ffa700;
 }
 
 .header .userInfo .loginInfo {
