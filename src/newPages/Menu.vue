@@ -7,6 +7,11 @@
                     <img src="/images/mcd-logo-red.jpg">
                 </div>
                 <ul class="NavUI">
+                    <li id="tag00">
+                        <div class="liInit">
+                            <a data-cl-id="2022120700">返回首页</a>
+                        </div>
+                    </li>
                     <li id="tag01">
                         <div class="liInit">
                             <a data-cl-id="2022120701">鸡肉汉堡</a>
@@ -66,7 +71,7 @@
                             <ul class="loginInfo">
                                 <li>
                                     <span class="displayblock iconfont icon-yonghu fontsize30">
-                                        ::before
+                                        
                                     </span>
                                     <span class="displayblock">
                                         登录
@@ -74,7 +79,7 @@
                                 </li>
                                 <li>
                                     <span class="displayblock iconfont icon-gouwuche fontsize30">
-                                        ::before
+                                        
                                     </span>
                                     <span class="displayblock">
                                         餐车
@@ -91,8 +96,7 @@
                             <div id="tag01x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
-                                        鸡肉汉堡
-                                        ::after
+                                        鸡肉汉堡                      
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -136,7 +140,7 @@
                                                         <div class="add-check flexPos">
                                                             <!-- <div class="left">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-08">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                             <div class="number">
@@ -144,7 +148,7 @@
                                                             </div> -->
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -186,7 +190,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -228,7 +232,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -270,7 +274,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -312,7 +316,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -354,7 +358,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -396,7 +400,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -438,7 +442,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -452,13 +456,12 @@
                         </div>
                     </div>
                     <!-- 巨无霸牛鱼肉堡 -->
-                    <div id="Category02" class="FoodContentMainClassify">
+                    <div id="Category02" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag02x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
-                                        巨无霸牛鱼肉堡
-                                        ::after
+                                        巨无霸牛鱼肉堡                  
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -497,7 +500,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -539,7 +542,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -581,7 +584,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -623,7 +626,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -665,7 +668,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -707,7 +710,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -749,7 +752,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -791,7 +794,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -833,7 +836,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -875,7 +878,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -917,7 +920,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -959,7 +962,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1001,7 +1004,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1015,13 +1018,13 @@
                         </div>
                     </div>
                     <!-- 炸鸡 -->
-                    <div id="Category03" class="FoodContentMainClassify">
+                    <div id="Category03" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag03x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         炸鸡
-                                        ::after
+                                        
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1060,7 +1063,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1102,7 +1105,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1144,7 +1147,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1186,7 +1189,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1228,7 +1231,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1270,7 +1273,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1312,7 +1315,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1354,7 +1357,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1368,13 +1371,13 @@
                         </div>
                     </div>
                     <!-- 金拱门桶 -->
-                    <div id="Category04" class="FoodContentMainClassify">
+                    <div id="Category04" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag04x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         金拱门桶
-                                        ::after
+                                        
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1413,7 +1416,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1455,7 +1458,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1497,7 +1500,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1539,7 +1542,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1553,13 +1556,13 @@
                         </div>
                     </div>
                     <!-- 开心乐园餐 -->
-                    <div id="Category05" class="FoodContentMainClassify">
+                    <div id="Category05" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag05x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         开心乐园餐
-                                        ::after
+                                        
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1598,7 +1601,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1640,7 +1643,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1682,7 +1685,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1724,7 +1727,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1738,13 +1741,13 @@
                         </div>
                     </div>
                     <!-- 500大卡套餐 -->
-                    <div id="Category06" class="FoodContentMainClassify">
+                    <div id="Category06" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag06x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         500大卡套餐
-                                        ::after
+                                        
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -1783,7 +1786,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1825,7 +1828,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1867,7 +1870,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1909,7 +1912,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1951,7 +1954,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1965,13 +1968,13 @@
                         </div>
                     </div>
                     <!-- 小食甜品/其他 -->
-                    <div id="Category07" class="FoodContentMainClassify">
+                    <div id="Category07" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag07x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         小食甜品/其他
-                                        ::after
+                                        
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -2010,7 +2013,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2052,7 +2055,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2094,7 +2097,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2136,7 +2139,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2178,7 +2181,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2220,7 +2223,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2262,7 +2265,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2304,7 +2307,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2346,7 +2349,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2360,13 +2363,13 @@
                         </div>
                     </div>
                     <!-- 饮品 -->
-                    <div id="Category08" class="FoodContentMainClassify">
+                    <div id="Category08" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
                             <div id="tag08x">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         饮品
-                                        ::after
+                                        
                                     </span>
                                     <span class="CaArrow"></span>
                                 </div>
@@ -2405,7 +2408,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2447,7 +2450,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2489,7 +2492,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2531,7 +2534,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2573,7 +2576,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2615,7 +2618,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2657,7 +2660,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2699,7 +2702,7 @@
                                                         <div class="add-check flexPos">
                                                             <div class="right">
                                                                 <span class="dmicon iconfont icon-tubiaomianxing02-05">
-                                                                    ::before
+                                                                    
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2725,7 +2728,7 @@
 </script>
 
 <style lang="scss">
-#menu {
+.menu {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
@@ -2762,7 +2765,7 @@
     padding: 0 0;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 .menu .MenuNav .logo img {
@@ -2779,7 +2782,7 @@ img {
 }
 
 .menu .MenuNav .NavUI {
-    margin-top: 30px;
+    margin-top: 0;
     text-align: left;
     font-weight: 400;
 }
@@ -2790,15 +2793,15 @@ ul {
 }
 
 .menu .MenuNav .NavUI li {
-    font-size: 19.5px;
+    font-size: 18px;
     position: relative;
 }
 
 .menu .MenuNav .NavUI li .liInit {
-    padding: 8px;
+    padding: 6px;
     cursor: pointer;
-    padding-top: 20px;
-    padding-left: 46px;
+    padding-top: 15px;
+    padding-left: 25px;
     font-size: x-large;
 }
 
@@ -2930,13 +2933,14 @@ a {
     margin-left: auto;
 } */
 
-.menu .MenuMain .FoodContentBox .PCateforyName .CaName {
+.menu .MenuMain .FoodContentBox .PCategoryName .CaName {
     background: #ffa700;
     display: inline-block;
     color: #fff;
     padding: 12px 40px;
     border-radius: 10px 0 10px 0;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 18px;
     position: relative;
@@ -2957,7 +2961,7 @@ a {
     flex: 0 0 210px;
     padding-bottom: 16px;
     box-shadow: 0 2px 5px #ddd;
-    margin-top: 20px;
+    margin-left: 15px;
     border-radius: 14px;
     position: relative;
     border: 3px solid #ff8e2b;
@@ -3035,23 +3039,23 @@ a {
     margin-top: 4px;
 }
 
-.menu .FoodContent .FoodBox .FoodOperator .foodPrice {
+.menu .FoodContent .FoodBox .FoodOpeator .foodPrice {
     color: #d00;
     font-weight: 700;
     padding-top: 10px;
 }
 
-.menu .FoodContent .FoodBox .FoodOperator .foodPrice .priceBox {
+.menu .FoodContent .FoodBox .FoodOpeator .foodPrice .pricebox {
     padding-left: 10px;
     display: inline-block;
     padding-left: 13px;
 }
 
-.menu .FoodContent .FoodBox .FoodOperator .foodPrice .big {
-    font-size: 16px;
+.menu .FoodContent .FoodBox .FoodOpeator .foodPrice .big {
+    font-size: 18px;
 }
 
-.menu .FoodContent .FoodBox .FoodOperator .BtnPos {
+.menu .FoodContent .FoodBox .FoodOpeator .BtnPos {
     position: absolute;
     right: 6px;
     bottom: 2px;
