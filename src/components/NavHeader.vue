@@ -31,7 +31,7 @@
         </div>
         <div class="header-menu">
           <div class="item-menu">
-            <span href="/#/index">麦当劳</span>
+            <span @click="goToIndex">麦当劳</span>
             <div class="children">
               <ul>
                 <li class="outsidePages">
@@ -72,7 +72,8 @@
             </div>
           </div>
           <div class="item-menu">
-            <span onclick="javascript:window.open('/#/product')">餐品总览</span>
+            <!-- <span onclick="javascript:window.open('/#/product')">餐品总览</span> -->
+            <span @click="goToAllProduct">餐品总览</span>
             <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in foodList" :key="i">
@@ -88,7 +89,8 @@
             </div>
           </div>
           <div class="item-menu">
-            <span onclick="javascript:window.open('/#/menu')">网上订餐</span>
+            <!-- <span onclick="javascript:window.open('/#/menu')">网上订餐</span> -->
+            <span @click="goToMenu">网上订餐</span>
             <!-- <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in tvList" :key="i">
@@ -268,9 +270,18 @@ export default {
     //     });
     // },
     // 跳转购物车
-    goToCart() {
-      this.$router.push('/cart');
-    }
+    // goToCart() {
+    //   this.$router.push('/cart');
+    // }
+    goToMenu() {
+      this.$router.push('/menu');
+    },
+    goToAllProduct() {
+      this.$router.push('/product');
+    },
+    goToIndex() {
+      this.$router.push('/index');
+    },
   }
 };
 </script>
@@ -461,13 +472,14 @@ export default {
           @include flex();
 
           input {
-            border: none;
-            box-sizing: border-box;
-            border-right: 1px solid $colorA;
+            border: $colorA;
+            // box-sizing: border-box;
+            border-right: 2px solid $colorA;
+            border-radius: 12px;
             width: 264px;
             height: 50px;
             padding-left: 14px;
-            outline: none;
+            outline: $colorA;
           }
 
           a {
@@ -480,6 +492,7 @@ export default {
           &:hover {
             color: #ffffff;
             background-color: $colorA;
+            transition: 0.5s;
           }
         }
       }

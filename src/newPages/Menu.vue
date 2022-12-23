@@ -3,13 +3,14 @@
         <div class="menu">
             <!-- 菜单侧边栏导航 -->
             <div class="MenuNav">
+                <el-backtop class="backtop"></el-backtop>
                 <div class="logo">
-                    <img src="/images/logo-80 2.png">
+                    <img src="/images/logo-80 2.png" @click="goToIndex">
                 </div>
                 <ul class="NavUI">
                     <li id="tag00">
                         <div class="liInit">
-                            <a data-cl-id="2022120700" :href="('/#/index')">返回首页</a>
+                            <a data-cl-id="2022120700" @click="goToIndex">返回首页</a>
                         </div>
                     </li>
                     <li id="tag01">
@@ -2724,7 +2725,51 @@
 </template>
 
 <script>
-
+// import Modal from '@/components/Modal.vue';
+export default {
+    name: 'index',
+    // components: { ServiceBar, Modal, Swiper, SwiperSlide },
+    /*data() {
+        return {
+        }
+    },*/
+    mounted() {
+        this.init();
+    },
+    methods: {
+        // 初始化商品列表
+        init() {
+            /*this.$api.mall
+                .goodsList({
+                    categoryId: 100012,
+                    pageSize: 14
+                })
+                .then((res) => {
+                    console.log('res', res);
+                    res.list = res.list.slice(6, 14);
+                    this.phoneList = [res.list.slice(0, 4), res.list.slice(4, 8)];
+                });*/
+        },
+        // 加入购物车
+        addCart(id) {
+            let params = {
+                productId: id,
+                selected: true
+            };
+            this.$api.mall.addCart(params).then((res = { cartProductVoList: 0 }) => {
+                this.$store.dispatch('saveCartCount', res.cartProductVoList.length + 1);
+                this.showModal = true;
+            });
+        },
+        // 去购物车
+        goCart() {
+            this.$router.push('/cart');
+        },
+        goToIndex() {
+            this.$router.push('/index');
+        }
+    }
+};
 </script>
 
 <style lang="scss">
@@ -2786,6 +2831,7 @@ img {
     margin-top: 0;
     text-align: left;
     font-weight: 400;
+    padding-top: 35px;
 }
 
 li,
@@ -3110,5 +3156,14 @@ a {
     border: none;
     cursor: pointer;
     font-weight: 400;
+}
+
+.backtop {
+    background-color: #d00;
+    color: #fff;
+
+    &:hover {
+        background-color: #ffa700;
+    }
 }
 </style>
