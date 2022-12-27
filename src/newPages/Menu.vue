@@ -74,7 +74,7 @@
                                     <span class="displayblock iconfont icon-yonghu fontsize30">
 
                                     </span>
-                                    <span class="displayblock">
+                                    <span class="displayblock" href="javascript:;" v-if="!username" @click="goLogin()">
                                         登录
                                     </span>
                                 </li>
@@ -82,7 +82,7 @@
                                     <span class="displayblock iconfont icon-gouwuche fontsize30">
 
                                     </span>
-                                    <span class="displayblock">
+                                    <span class="displayblock" href="javascript:;" @click="goCart()">
                                         餐车
                                     </span>
                                 </li>
@@ -148,8 +148,7 @@
                                                                 <span class="text"></span>
                                                             </div> -->
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -190,8 +189,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -232,8 +230,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -274,8 +271,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -316,8 +312,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -358,8 +353,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -400,8 +394,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -442,8 +435,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -500,8 +492,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -542,8 +533,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -584,8 +574,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -626,8 +615,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -668,8 +656,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -710,8 +697,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -752,8 +738,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -794,8 +779,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -836,8 +820,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -878,8 +861,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -920,8 +902,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -962,8 +943,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1004,8 +984,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1063,8 +1042,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1105,8 +1083,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1147,8 +1124,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1189,8 +1165,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1231,8 +1206,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1273,8 +1247,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1315,8 +1288,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1357,8 +1329,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1416,8 +1387,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1458,8 +1428,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1500,8 +1469,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1542,8 +1510,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1601,8 +1568,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1643,8 +1609,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1685,8 +1650,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1727,8 +1691,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1786,8 +1749,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1828,8 +1790,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1870,8 +1831,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1912,8 +1872,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1954,8 +1913,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2013,8 +1971,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2055,8 +2012,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2097,8 +2053,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2139,8 +2094,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2181,8 +2135,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2223,8 +2176,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2265,8 +2217,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2307,8 +2258,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2349,8 +2299,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2408,8 +2357,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2450,8 +2398,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2492,8 +2439,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2534,8 +2480,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2576,8 +2521,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2618,8 +2562,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2660,8 +2603,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2702,8 +2644,7 @@
                                                     <div>
                                                         <div class="add-check flexPos">
                                                             <div class="right">
-                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05">
-
+                                                                <span class="dmicon iconfont icon-tubiaomianxing02-05" @click="addCart(todo)">
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -2749,6 +2690,10 @@ export default {
                     res.list = res.list.slice(6, 14);
                     this.phoneList = [res.list.slice(0, 4), res.list.slice(4, 8)];
                 });*/
+        },
+        // 登录
+        goLogin() {
+            this.$router.push('/login');
         },
         // 加入购物车
         addCart(id) {

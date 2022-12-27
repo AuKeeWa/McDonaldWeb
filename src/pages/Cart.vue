@@ -41,7 +41,7 @@
         </div>
         <div class="order-wrap clearfix">
           <div class="cart-tip fl">
-            <a href="/#/index">继续购物</a>
+            <a href="/#/menu">继续购物</a>
             共<span>{{ list.length }}</span>件商品，已选择<span>{{ checkedNum }}</span>件
           </div>
           <div class="total fr">
