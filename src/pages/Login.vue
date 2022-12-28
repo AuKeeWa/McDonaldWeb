@@ -61,7 +61,7 @@ export default {
           // this.$store.dispatch('saveUserName', res.username);
           this.saveUserName(res.username);
           this.$router.push({
-            name: 'index',
+            name: 'menu',
             params: {
               from: 'login'
             }
