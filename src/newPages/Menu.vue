@@ -15,42 +15,42 @@
                     </li>
                     <li id="tag01">
                         <div class="liInit">
-                            <a data-cl-id="2022120701">鸡肉汉堡</a>
+                            <a :class="{active: active===0}" @click="goToAnchor('#Category01');scrollTo(0)" data-cl-id="2022120701">鸡肉汉堡</a>
                         </div>
                     </li>
                     <li id="tag02">
                         <div class="liInit">
-                            <a data-cl-id="2022120702">巨无霸牛鱼肉堡</a>
+                            <a :class="{active: active===1}" @click="goToAnchor('#Category02');scrollTo(1)" data-cl-id="2022120702">巨无霸牛鱼肉堡</a>
                         </div>
                     </li>
                     <li id="tag03">
                         <div class="liInit">
-                            <a data-cl-id="2022120703">炸鸡</a>
+                            <a :class="{active: active===2}" @click="goToAnchor('#Category03');scrollTo(2)" data-cl-id="2022120703">炸鸡</a>
                         </div>
                     </li>
                     <li id="tag04">
                         <div class="liInit">
-                            <a data-cl-id="2022120704">金拱门桶</a>
+                            <a :class="{active: active===3}" @click="goToAnchor('#Category04');scrollTo(3)" data-cl-id="2022120704">金拱门桶</a>
                         </div>
                     </li>
                     <li id="tag05">
                         <div class="liInit">
-                            <a data-cl-id="2022120705">开心乐园餐</a>
+                            <a :class="{active: active===4}" @click="goToAnchor('#Category05');scrollTo(4)" data-cl-id="2022120705">开心乐园餐</a>
                         </div>
                     </li>
                     <li id="tag06">
                         <div class="liInit">
-                            <a data-cl-id="2022120706">500大卡套餐</a>
+                            <a :class="{active: active===5}" @click="goToAnchor('#Category06');scrollTo(5)" data-cl-id="2022120706">500大卡套餐</a>
                         </div>
                     </li>
                     <li id="tag07">
                         <div class="liInit">
-                            <a data-cl-id="2022120707">小食甜品/其他</a>
+                            <a :class="{active: active===6}" @click="goToAnchor('#Category07');scrollTo(6)" data-cl-id="2022120707">小食甜品/其他</a>
                         </div>
                     </li>
                     <li id="tag08">
                         <div class="liInit">
-                            <a data-cl-id="2022120708">饮品</a>
+                            <a :class="{active: active===7}" @click="goToAnchor('#Category08');scrollTo(7)" data-cl-id="2022120708">饮品</a>
                         </div>
                     </li>
 
@@ -72,7 +72,6 @@
                             <ul class="loginInfo">
                                 <li>
                                     <span class="displayblock iconfont icon-yonghu fontsize30">
-
                                     </span>
                                     <span class="displayblock" href="javascript:;" v-if="!username" @click="goLogin()">
                                         登录
@@ -80,7 +79,6 @@
                                 </li>
                                 <li>
                                     <span class="displayblock iconfont icon-gouwuche fontsize30">
-
                                     </span>
                                     <span class="displayblock" href="javascript:;" @click="goCart()">
                                         餐车
@@ -94,7 +92,7 @@
                     <!-- 鸡肉汉堡 -->
                     <div id="Category01" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag01x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         鸡肉汉堡
@@ -451,7 +449,7 @@
                     <!-- 巨无霸牛鱼肉堡 -->
                     <div id="Category02" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag02x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         巨无霸牛鱼肉堡
@@ -1000,7 +998,7 @@
                     <!-- 炸鸡 -->
                     <div id="Category03" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag03x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         炸鸡
@@ -1345,7 +1343,7 @@
                     <!-- 金拱门桶 -->
                     <div id="Category04" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag04x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         金拱门桶
@@ -1526,7 +1524,7 @@
                     <!-- 开心乐园餐 -->
                     <div id="Category05" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag05x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         开心乐园餐
@@ -1707,7 +1705,7 @@
                     <!-- 500大卡套餐 -->
                     <div id="Category06" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag06x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         500大卡套餐
@@ -1929,7 +1927,7 @@
                     <!-- 小食甜品/其他 -->
                     <div id="Category07" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag07x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         小食甜品/其他
@@ -2315,7 +2313,7 @@
                     <!-- 饮品 -->
                     <div id="Category08" class="FoodContent MainClassify">
                         <div class="spaceRound Subclassify">
-                            <div id="tag08x">
+                            <div id="tag">
                                 <div class="PCategoryName">
                                     <span class="CaName">
                                         饮品
@@ -2666,16 +2664,23 @@
 </template>
 
 <script>
+// import { debug } from 'console';
+
 // import Modal from '@/components/Modal.vue';
 export default {
     name: 'index',
     // components: { ServiceBar, Modal, Swiper, SwiperSlide },
-    /*data() {
+    data() {
         return {
+            active: 0   //激活的导航索引
         }
-    },*/
+    },
     mounted() {
         this.init();
+        window.addEventListener('scroll', this.onScroll, false);
+    },
+    destroy(){
+        window.removeEventListener('scroll', this.onScroll);
     },
     methods: {
         // 初始化商品列表
@@ -2712,7 +2717,86 @@ export default {
         },
         goToIndex() {
             this.$router.push('/index');
+        },
+        onScroll(){
+            // 获取所有锚点元素
+            const navContents = document.querySelectorAll('.CaName')
+            
+            // 所有锚点元素的 offsetTop
+            const offsetTopArr = []
+            navContents.forEach(item => {
+                offsetTopArr.push(item.offsetTop)
+            })
+            // 获取当前文档流的 scrollTop
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+            // 定义当前点亮的导航下标
+            let navIndex = 0
+            for (let n = 0; n < offsetTopArr.length; n++) {
+                // 如果 scrollTop 大于等于第n个元素的 offsetTop 则说明 n-1 的内容已经完全不可见
+                // 那么此时导航索引就应该是n了
+                if (scrollTop+70 >= offsetTopArr[n]) {
+                    navIndex = n
+                }
+            }
+            this.active = navIndex
+        },
+        // 跳转到指定索引的元素
+        scrollTo(index) {
+            // 获取目标的 offsetTop
+            // css选择器是从 1 开始计数，我们是从 0 开始，所以要 +1
+            const targetOffsetTop = document.querySelector(`.CaName:nth-child(${index + 1})`).offsetTop
+            // 获取当前 offsetTop
+            let scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+            // 定义一次跳 50 个像素，数字越大跳得越快，但是会有掉帧得感觉，步子迈大了会扯到蛋
+            const STEP = 50
+            // 判断是往下滑还是往上滑
+            if (scrollTop > targetOffsetTop) {
+                // 往上滑
+                smoothUp()
+            } else {
+                // 往下滑
+                smoothDown()
+            }
+            // 定义往下滑函数
+            function smoothDown() {
+                // 如果当前 scrollTop 小于 targetOffsetTop 说明视口还没滑到指定位置
+                if (scrollTop < targetOffsetTop) {
+                    // 如果和目标相差距离大于等于 STEP 就跳 STEP
+                    // 否则直接跳到目标点，目标是为了防止跳过了。
+                    if (targetOffsetTop - scrollTop >= STEP) {
+                        scrollTop += STEP
+                    }
+                    else {
+                        console.log(scrollTop)
+                        console.log(targetOffsetTop)
+                        scrollTop = targetOffsetTop
+                    }
+                    document.body.scrollTop = scrollTop+1
+                    document.documentElement.scrollTop = scrollTop+1
+                    // 关于 requestAnimationFrame 可以自己查一下，在这种场景下，相比 setInterval 性价比更高
+                    requestAnimationFrame(smoothDown)
+                }else{
+                    console.log('else')
+                }
+            }
+            // 定义往上滑函数
+            function smoothUp() {
+                if (scrollTop > targetOffsetTop) {
+                    if (scrollTop - targetOffsetTop >= STEP) {
+                        scrollTop -= STEP
+                    } else {
+                        scrollTop = targetOffsetTop
+                    }
+                    document.body.scrollTop = scrollTop+1
+                    document.documentElement.scrollTop = scrollTop+1
+                    requestAnimationFrame(smoothUp)
+                }
+            }
+        },
+        goToAnchor(selector) {
+            this.$el.querySelector(selector).scrollIntoView();
         }
+
     }
 };
 </script>
@@ -2797,11 +2881,15 @@ ul {
     font-size: x-large;
 }
 
+
+
 .menu .MenuNav .NavUI li a {
     color: #ffa700;
     cursor: pointer;
     font-weight: 700;
 }
+
+
 
 a {
     text-decoration: none;
@@ -2818,6 +2906,11 @@ a {
 .menu .MenuNav .NavUI li .on a,
 .menu .MenuNav .NavUI li .on span::after {
     color: #fff;
+}
+
+.menu .MenuNav .NavUI li a.active {
+    // background: #d30008 !important;
+    color: #d30008;
 }
 
 .menu .MenuMain {
