@@ -106,7 +106,7 @@
             </div> -->
           </div>
           <div class="item-menu">
-            <span>外星页面</span>
+            <span @click="goToAlien">外星页面</span>
             <!-- <div class="children">
               <ul>
                 <li class="product" v-for="(item, i) in tvList" :key="i">
@@ -281,6 +281,9 @@ export default {
     },
     goToIndex() {
       this.$router.push('/index');
+    },
+    goToAlien() {
+      this.$router.push('/alien');
     },
   }
 };
