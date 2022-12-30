@@ -73,12 +73,18 @@
                                 <li>
                                     <span class="displayblock iconfont icon-yonghu fontsize30">
                                     </span>
+                                    <!-- <span class="displayblock" href="javascript:;" v-if="username">
+                                        {{username}}
+                                    </span> -->
                                     <span class="displayblock" href="javascript:;" v-if="!username" @click="goLogin()">
                                         登录
                                     </span>
+                                    <span class="displayblock" href="javascript:;" v-if="username" @click="goLogout()">
+                                        退出
+                                    </span>
                                 </li>
                                 <li>
-                                    <span class="displayblock iconfont icon-gouwuche fontsize30">
+                                    <span class="displayblock iconfont icon-gouwuche fontsize30" @click="goCart()">
                                     </span>
                                     <span class="displayblock" href="javascript:;" @click="goCart()">
                                         餐车
@@ -2667,6 +2673,7 @@
 // import { debug } from 'console';
 
 // import Modal from '@/components/Modal.vue';
+import { mapState } from 'vuex';
 export default {
     name: 'index',
     // components: { ServiceBar, Modal, Swiper, SwiperSlide },
@@ -2681,6 +2688,18 @@ export default {
     },
     destroy(){
         window.removeEventListener('scroll', this.onScroll);
+    },
+    computed: {
+    // 获取store中state值
+    // 方式一：
+    // username() {
+    //   return this.$store.state.username;
+    // },
+    // cartCount() {
+    //   return this.$store.state.cartCount;
+    // }
+    // 方式二：
+        ...mapState(['username', 'cartCount'])
     },
     methods: {
         // 初始化商品列表
@@ -2699,6 +2718,18 @@ export default {
         // 登录
         goLogin() {
             this.$router.push('/login');
+        },
+        // 退出
+        goLogout() {
+            this.$api.mall.logout().then(() => {
+                this.$message.success('退出成功');
+                // 清除用户ID
+                this.$cookie.set('userId', '', { expires: '-1' });
+                // 清除用户名
+                this.$store.dispatch('saveUserName', '');
+                // 清空购物车数量
+                this.$store.dispatch('saveCartCount', 0);
+            });
         },
         // 加入购物车
         addCart(id) {
@@ -3089,6 +3120,10 @@ a {
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
+}
+
+.menu .FoodContent .FoodBox .FoodImgBox:hover .imgBoxMask {
+    display: block;
 }
 
 .menu .FoodContent .FoodBox .FoodDesc {
