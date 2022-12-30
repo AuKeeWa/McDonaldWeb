@@ -114,7 +114,7 @@
                                             <div class="imgBoxMask">
                                                 <span class="content">
                                                     <!-- 餐品描述 -->
-                                                    是超好吃的麦辣鸡腿堡套餐啊！经典之选！
+                                                    1个麦辣鸡腿堡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -166,7 +166,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/板烧鸡腿堡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的板烧鸡腿堡套餐啊！经典之选！
+                                                    1个板烧鸡腿堡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -207,7 +207,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/麦麦咔滋脆鸡腿堡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦麦咔滋脆鸡腿堡套餐啊！超值热门
+                                                    1个麦麦咔滋脆鸡腿堡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -248,7 +248,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/麦香鸡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦香鸡套餐啊！经典之选！
+                                                    1个麦香鸡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -289,7 +289,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/麦辣鸡腿汉堡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦辣鸡腿堡啊！经典之选！
+                                                    金黄脆辣的外皮，里面是鲜嫩幼滑的鸡腿肉，搭配清爽生菜和美味沙拉酱，多重滋味，一次打动您挑剔的味蕾
                                                 </span>
                                             </div>
                                         </div>
@@ -330,7 +330,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/板烧鸡腿堡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的板烧鸡腿堡啊！经典之选！
+                                                    原块去骨鸡排嫩滑多汁，加洋葱及胡椒调味，与翠绿新鲜的生菜和香浓烧鸡酱搭配，口感丰富。煎制过程0油添加，绝对让人食指大动！
                                                 </span>
                                             </div>
                                         </div>
@@ -371,7 +371,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/麦麦咔滋脆鸡腿堡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦麦咔滋脆鸡腿堡啊！超值热门！
+                                                    甄选大块去骨鸡腿肉，中西复合秘制腌料入味，裹上麦当劳独家网状结构的酥脆裹粉，配合秘制麻担酱融合了坚果芝麻和淡淡椒麻等风味，与鲜嫩多汁的大脆鸡腿排相得益彰。
                                                 </span>
                                             </div>
                                         </div>
@@ -412,7 +412,7 @@
                                             <img src="../../public/images/menu/鸡肉汉堡/麦香鸡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦香鸡啊！经典之选！
+                                                    清脆爽口的生菜，给你植物纤维；金黄酥脆的鸡肉来自精心培育的优质嫩鸡。营养搭配，让你多一个好滋味的健康选择
                                                 </span>
                                             </div>
                                         </div>
@@ -469,7 +469,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/巨无霸套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的巨无霸套餐啊！经典之选！
+                                                    1个巨无霸+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -510,7 +510,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/培根蔬萃双层牛堡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的培根蔬萃双层牛堡套餐啊！超值热门！
+                                                    1个培根蔬萃双层牛堡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -551,7 +551,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/吉士汉堡包套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的吉士汉堡包套餐啊！超值热门！
+                                                    1个吉士汉堡包+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -592,7 +592,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/双层吉士汉堡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的双层吉士汉堡套餐啊！超值热门！
+                                                    1个双层吉士汉堡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -633,7 +633,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/麦香鱼套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦香鱼套餐啊！超值热门！
+                                                    1个麦香鱼+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -674,7 +674,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/双层深海鳕鱼堡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的双层深海鳕鱼堡套餐啊！超值热门！
+                                                    1个双层深海鳕鱼堡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -715,7 +715,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/巨无霸.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的巨无霸啊！超值热门！
+                                                    全新升级巨无霸超霸登场！两块百分百纯牛肉搭配洋葱煎制，风味增强；增加50%美味酱料，浓郁拉满，搭配新升级满满嚼劲面包，芝士，生菜与腌黄瓜，味蕾层层爆炸
                                                 </span>
                                             </div>
                                         </div>
@@ -756,7 +756,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/培根蔬萃双层牛堡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的培根蔬萃双层牛堡啊！超值热门！
+                                                    一层脆生菜，一片鲜番茄，两片培根，两片牛肉，一层特别酱料！
                                                 </span>
                                             </div>
                                         </div>
@@ -797,7 +797,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/吉士汉堡包.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的吉士汉堡包啊！超值热门！
+                                                    百分百纯牛肉与香软芝士融为一体，配合美味番茄酱丰富口感一咬即爆发
                                                 </span>
                                             </div>
                                         </div>
@@ -807,7 +807,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    超值热门
+                                                    经典之选
                                                 </span>
                                             </div>
                                         </div>
@@ -838,7 +838,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/双层吉士汉堡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的双层吉士汉堡啊！超值热门！
+                                                    百分百纯牛肉与双层香软芝士融为一体，加上松软面包及美味酱料，双倍滋味诱惑，无人能挡
                                                 </span>
                                             </div>
                                         </div>
@@ -879,7 +879,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/麦香鱼.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦香鱼啊！超值热门！
+                                                    由深海鳕鱼制成，外皮炸得金黄酥脆，内里又保留了鱼肉的鲜嫩多汁，是美味与营养并存的选择
                                                 </span>
                                             </div>
                                         </div>
@@ -889,7 +889,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    超值热门
+                                                    经典之选
                                                 </span>
                                             </div>
                                         </div>
@@ -920,7 +920,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/双层深海鳕鱼堡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的双层深海鳕鱼堡啊！超值热门！
+                                                    双层深海鳕鱼堡，特选两整块深海鳕鱼，肉质洁白细腻，鱼肉清爽，富含丰富优质的蛋白质，搭配经典的车达芝士和浓郁风味酱，每一口都唇齿留香
                                                 </span>
                                             </div>
                                         </div>
@@ -961,7 +961,7 @@
                                             <img src="../../public/images/menu/巨无霸牛鱼肉堡/汉堡包.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的汉堡包啊！超值热门！
+                                                    百分百纯牛肉配搭爽脆酸瓜洋葱粒与美味番茄酱，经典滋味让你无处遁逃
                                                 </span>
                                             </div>
                                         </div>
@@ -971,7 +971,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    超值热门
+                                                    经典之选
                                                 </span>
                                             </div>
                                         </div>
@@ -1019,7 +1019,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦辣鸡翅4块套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦辣鸡翅4块套餐啊！经典之选！
+                                                    4块麦辣鸡翅+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -1060,7 +1060,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦麦脆汁鸡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦麦脆汁鸡套餐啊！经典之选！
+                                                    1块鸡胸+1块琵琶腿+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -1070,7 +1070,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    经典之选
+                                                    脆汁精选
                                                 </span>
                                             </div>
                                         </div>
@@ -1101,7 +1101,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦麦脆汁鸡小食餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦麦脆汁鸡小食餐啊！经典之选！
+                                                    1块麦麦脆汁鸡-鸡腿+5块麦乐鸡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -1111,7 +1111,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    经典之选
+                                                    脆汁精选
                                                 </span>
                                             </div>
                                         </div>
@@ -1142,7 +1142,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦乐鸡套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦乐鸡套餐啊！经典之选！
+                                                    5块麦乐鸡+1份小食+1杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -1183,7 +1183,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦麦脆汁鸡1块.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦麦脆汁鸡1块啊！经典之选！
+                                                    1块鸡胸或1块鸡腿
                                                 </span>
                                             </div>
                                         </div>
@@ -1193,7 +1193,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    经典之选
+                                                    脆汁精选
                                                 </span>
                                             </div>
                                         </div>
@@ -1224,7 +1224,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦麦脆汁鸡2块.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦麦脆汁鸡2块啊！经典之选！
+                                                    1块鸡胸+1块琵琶腿（或1块上腿排）
                                                 </span>
                                             </div>
                                         </div>
@@ -1234,7 +1234,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    经典之选
+                                                    脆汁精选
                                                 </span>
                                             </div>
                                         </div>
@@ -1265,7 +1265,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦辣鸡翅.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦辣鸡翅啊！经典之选！
+                                                    火辣惹味的鸡翅炸得金黄热辣，辣味瞬间爆棚！1对麦辣鸡翅
                                                 </span>
                                             </div>
                                         </div>
@@ -1306,7 +1306,7 @@
                                             <img src="../../public/images/menu/炸鸡/麦乐鸡.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦乐鸡啊！经典之选！
+                                                    严格挑选优质鸡肉，秘制蘸料，精密控制火候，锁住肉汁和相位，令外面金黄酥脆，内在鲜嫩多汁
                                                 </span>
                                             </div>
                                         </div>
@@ -1364,7 +1364,7 @@
                                             <img src="../../public/images/menu/金拱门桶/炸鸡天团桶.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的炸鸡天团桶啊！桶桶开心！
+                                                    1块麦麦脆汁鸡-鸡腿+1块麦麦脆汁鸡-鸡胸+4块麦辣鸡翅+5块麦乐鸡
                                                 </span>
                                             </div>
                                         </div>
@@ -1405,7 +1405,7 @@
                                             <img src="../../public/images/menu/金拱门桶/人气堡堡桶.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的人气堡堡桶啊！桶桶开心！
+                                                    1个麦辣鸡腿汉堡+1个板烧鸡腿堡+1块麦麦脆汁鸡-鸡腿+2块麦辣鸡翅+5块麦乐鸡+1份中薯条+3杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -1446,7 +1446,7 @@
                                             <img src="../../public/images/menu/金拱门桶/55金拱门桶.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的55金拱门桶啊！桶桶开心！
+                                                    6块麦辣鸡翅+5块麦乐鸡+V-cut薯角+2杯饮料
                                                 </span>
                                             </div>
                                         </div>
@@ -1487,7 +1487,7 @@
                                             <img src="../../public/images/menu/金拱门桶/四拼小食桶.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的四拼小食桶啊！桶桶开心！
+                                                    1块麦麦脆汁鸡-鸡腿+2块麦辣鸡翅+1份中薯条+5块麦乐鸡
                                                 </span>
                                             </div>
                                         </div>
@@ -1545,7 +1545,7 @@
                                             <img src="../../public/images/menu/开心乐园餐/鱼排堡开心乐园餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的鱼排堡开心乐园餐啊！
+                                                    1个鱼排堡+1份迷你薯条+1份小食+1杯饮料+1个免费玩具
                                                 </span>
                                             </div>
                                         </div>
@@ -1586,7 +1586,7 @@
                                             <img src="../../public/images/menu/开心乐园餐/汉堡开心乐园餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的汉堡开心乐园餐啊！
+                                                    1个汉堡包+1份迷你薯条+1份小食+1杯饮料+1个免费玩具
                                                 </span>
                                             </div>
                                         </div>
@@ -1627,7 +1627,7 @@
                                             <img src="../../public/images/menu/开心乐园餐/开心亲子双人餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的开心亲子双人餐啊！
+                                                    麦乐鸡开心乐园餐，搭配培根安格斯厚牛堡套餐，一起牛气冲天
                                                 </span>
                                             </div>
                                         </div>
@@ -1668,7 +1668,7 @@
                                             <img src="../../public/images/menu/开心乐园餐/麦乐鸡开心乐园餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的麦乐鸡开心乐园餐啊！
+                                                    4块麦乐鸡+1份玉米杯+1份苹果片+1杯饮料+1个免费玩具
                                                 </span>
                                             </div>
                                         </div>
@@ -1726,7 +1726,7 @@
                                             <img src="../../public/images/menu/500大卡套餐/霸气五色套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的霸气五色套餐啊！
+                                                    1个培根蔬萃双层牛堡+1份苹果片+1杯饮料(低卡)
                                                 </span>
                                             </div>
                                         </div>
@@ -1767,7 +1767,7 @@
                                             <img src="../../public/images/menu/500大卡套餐/鸡不可失套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的鸡不可失套餐啊！
+                                                    2块麦辣鸡翅+5块麦乐鸡+1杯饮料（低卡）
                                                 </span>
                                             </div>
                                         </div>
@@ -1808,7 +1808,7 @@
                                             <img src="../../public/images/menu/500大卡套餐/苹板支撑套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的苹板支撑套餐啊！
+                                                    1个原味板烧鸡腿堡+1份苹果片+1杯饮料（低卡）
                                                 </span>
                                             </div>
                                         </div>
@@ -1849,7 +1849,7 @@
                                             <img src="../../public/images/menu/500大卡套餐/无肉不欢套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的无肉不欢套餐啊！
+                                                    1个吉士汉堡+2块麦辣鸡翅+1杯饮料（低卡）
                                                 </span>
                                             </div>
                                         </div>
@@ -1890,7 +1890,7 @@
                                             <img src="../../public/images/menu/500大卡套餐/只爱甜的套餐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    是超好吃的只爱甜的套餐啊！
+                                                    1份香芋派+1份苹果片+1杯美汁源阳光橙❥(^_-)
                                                 </span>
                                             </div>
                                         </div>
@@ -2416,7 +2416,7 @@
                                             <img src="../../public/images/menu/饮品/可口可乐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    商务人士的最爱！
+                                                    是每个人都爱喝的可口可乐！
                                                 </span>
                                             </div>
                                         </div>
@@ -2426,7 +2426,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    商务之选
+                                                    人人都爱
                                                 </span>
                                             </div>
                                         </div>
@@ -2457,7 +2457,7 @@
                                             <img src="../../public/images/menu/饮品/无糖可口可乐.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    商务人士的最爱！
+                                                    是控糖人士爱喝的可口可乐！
                                                 </span>
                                             </div>
                                         </div>
@@ -2467,7 +2467,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    商务之选
+                                                    人人都爱
                                                 </span>
                                             </div>
                                         </div>
@@ -2498,7 +2498,7 @@
                                             <img src="../../public/images/menu/饮品/雪碧.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    商务人士的最爱！
+                                                    什么，想尝尝不一样的口味？喝杯雪碧，透心凉心飞扬！
                                                 </span>
                                             </div>
                                         </div>
@@ -2508,7 +2508,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    商务之选
+                                                    透心之选
                                                 </span>
                                             </div>
                                         </div>
@@ -2539,7 +2539,7 @@
                                             <img src="../../public/images/menu/饮品/美汁源阳光橙.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    商务人士的最爱！
+                                                    人人爱，摇起来，开心就会活力澎湃，活得精彩
                                                 </span>
                                             </div>
                                         </div>
@@ -2549,7 +2549,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    商务之选
+                                                    人人都爱
                                                 </span>
                                             </div>
                                         </div>
@@ -2580,7 +2580,7 @@
                                             <img src="../../public/images/menu/饮品/Fuze Tea柠檬红茶味饮料.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    商务人士的最爱！
+                                                    来杯Lemon Tea~ 提神醒脑
                                                 </span>
                                             </div>
                                         </div>
@@ -2590,7 +2590,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    商务之选
+                                                    下午茶歇
                                                 </span>
                                             </div>
                                         </div>
@@ -2621,7 +2621,7 @@
                                             <img src="../../public/images/menu/饮品/纯牛奶.png">
                                             <div class="imgBoxMask">
                                                 <span class="content">
-                                                    商务人士的最爱！
+                                                    小朋友喝牛奶才会长高高
                                                 </span>
                                             </div>
                                         </div>
@@ -2631,7 +2631,7 @@
                                             </div>
                                             <div class="food-desc">
                                                 <span class="promotion">
-                                                    商务之选
+                                                    营养之选
                                                 </span>
                                             </div>
                                         </div>
