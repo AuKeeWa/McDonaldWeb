@@ -6,7 +6,7 @@
                     <img class="slot__item" v-for="(opt, subindex) in slot.items" :key="opt + subindex" :src="opt"/>
                 </div>
             </div>
-            <div class="start-btn" @click="start">插入图片，开始 T^T </div>
+            <div class="start-btn" @click="start"></div>
         </div>
     </div>
 </template>
@@ -157,12 +157,12 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    // background: url("../../static/imgs/frulit/bg.jpg") no-repeat;
+    background: url("../../public/images/cover.png") no-repeat;
     background-size: 100% 100%;
     .game-box {
         width: 40rem;
         height: 26.88rem;
-        // background: url("../../static/imgs/frulit/2.png") no-repeat;
+        background: url("../../public/images/cover2.png") no-repeat;
         background-size: 100% 100%;
         margin: 18rem auto 0 auto;
         position: relative;
@@ -172,14 +172,15 @@
             border-radius: 50%;
             position: absolute;
             bottom: 1rem;
-            left: 15rem;
+            left: 14rem;
+            cursor: pointer;
         }
         .frulit-box {
             width: 36rem;
             height: 12rem;
             position: absolute;
             top: 4.8rem;
-            left: 1rem;
+            left: 2rem;
             display: flex;
             overflow: hidden;
             .slot {
