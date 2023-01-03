@@ -58,10 +58,10 @@
             </div>
             <!-- 菜单详情 -->
             <div class="MenuMain">
-                <div class="headerFixed">
+                <div class="mheaderFixed">
                     <!--登录、购物车 todo-->
-                    <div class="header">
-                        <div class="header_swiper_container highLight">
+                    <div class="mheader">
+                        <div class="mheader_swiper_container highLight">
                             <div class="el-carousel">
                                 <div class="el-carousel_container"></div>
                             </div>
@@ -2851,7 +2851,7 @@ export default {
     color: #515a6e;
 }
 
-*,
+.menu *,
 :before,
 :after {
     box-sizing: border-box;
@@ -2951,7 +2951,7 @@ a {
     padding-bottom: 450px;
 }
 
-.menu .MenuMain .headerFixed {
+.menu .MenuMain .mheaderFixed {
     position: fixed;
     z-index: 9;
     top: 0;
@@ -2959,7 +2959,7 @@ a {
     left: 220px;
 }
 
-.header {
+.mheader {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -2969,14 +2969,14 @@ a {
 }
 
 
-.header .header_swiper_container {
+.mheader .mheader_swiper_container {
     -webkit-box-flex: 1;
     flex: 1;
     height: 70px;
     text-align: left;
 }
 
-.header .header_swiper_container .highLight {
+.mheader .mheader_swiper_container .highLight {
     background: #f9f9f9;
 }
 
@@ -2987,23 +2987,23 @@ a {
     height: 100%;
 }
 
-.header .userInfo {
+.mheader .userInfo {
     padding-right: 30px;
     padding-left: 20px;
     height: 70px;
     display: flex;
 }
 
-.header .userInfo.highLight {
+.mheader .userInfo.highLight {
     background-color: #ffa700;
 }
 
-.header .userInfo .loginInfo {
+.mheader .userInfo .loginInfo {
     display: flex;
     padding-right: 6px;
 }
 
-.header .userInfo .loginInfo li {
+.mheader .userInfo .loginInfo li {
     cursor: pointer;
     display: flex;
     -webkit-box-orient: vertical;
@@ -3015,7 +3015,7 @@ a {
     padding: 6px;
 }
 
-.header .userInfo .loginInfo li .displayblock.iconfont {
+.mheader .userInfo .loginInfo li .displayblock.iconfont {
     height: 40px;
     display: flex;
     -webkit-box-align: start;
