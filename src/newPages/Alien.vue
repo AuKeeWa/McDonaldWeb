@@ -92,7 +92,7 @@
                     return;
                 }
                 // let height = this.fontSize * 6;
-                let height = 144;    //图片高度
+                let height = 200;    //图片高度
                 this.opts = this.slots.map((data, i) => {
                     const slot = this.$refs.slots[i]; // 读取每一列
                     const choice = Math.floor(Math.random() * data.items.length); // 获取每一列的长度
@@ -154,39 +154,40 @@
 
 <style lang="scss" scoped>
 .game-box {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: 840px;
     overflow: hidden;
     background: url("../../public/images/cover.png") no-repeat;
     background-size: 100% 100%;
+    background-position: center;
     .game-box {
-        width: 40rem;
-        height: 26.88rem;
+        width: 720px;
+        height: 480px;
         background: url("../../public/images/cover2.png") no-repeat;
         background-size: 100% 100%;
-        margin: 18rem auto 0 auto;
+        margin: 180px auto 0 auto;
         position: relative;
         .start-btn {
-            width: 12rem;
-            height: 7rem;
+            width: 200px;
+            height: 100px;
             border-radius: 50%;
             position: absolute;
-            bottom: 1rem;
-            left: 14rem;
+            bottom: 50px;
+            left: 260px;
             cursor: pointer;
         }
         .frulit-box {
-            width: 36rem;
-            height: 12rem;
+            width: 620px;
+            height: 200px;
             position: absolute;
-            top: 4.8rem;
-            left: 2rem;
+            top: 100px;
+            left: 50px;
             display: flex;
             overflow: hidden;
             .slot {
-                width: 12rem;
-                height: 12rem;
-                margin-right: 0.2rem;
+                width: 200px;
+                height: 200px;
+                margin-right: 10px;
                 &:nth-child(3) {
                     margin-right: 0;
                 }

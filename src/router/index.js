@@ -55,6 +55,12 @@ export default new Router({
                     component: () =>
                         import ('../pages/Detail.vue') // 路由懒加载
                 },
+                {
+                    path: '/alien', // 动态路由
+                    name: 'alien',
+                    component: () =>
+                        import ('../newPages/Alien.vue') // 路由懒加载
+                },
 
             ]
         },
@@ -66,12 +72,7 @@ export default new Router({
             component: () =>
                 import ('../newPages/Menu.vue') // 路由懒加载
         },
-        {
-            path: '/alien', // 动态路由
-            name: 'alien',
-            component: () =>
-                import ('../newPages/Alien.vue') // 路由懒加载
-        },
+        
         // 登录
         {
             path: '/login',
