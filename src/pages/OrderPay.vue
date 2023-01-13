@@ -14,7 +14,7 @@
             <div class="order-info">
               <h2>订单提交成功！去付款咯～</h2>
               <p>请在<span>15分</span>内完成支付, 超时后将取消订单</p>
-              <p>收货信息：{{ addressInfo }}</p>
+              <p>送餐地址：{{ addressInfo }}</p>
             </div>
             <div class="order-total">
               <p>应付总额：<span>{{ payment }}</span>元</p>
@@ -27,11 +27,11 @@
               <div class="detail-info theme-color">{{ orderId }}</div>
             </div>
             <div class="item">
-              <div class="detail-title">收货信息：</div>
+              <div class="detail-title">送餐地址：</div>
               <div class="detail-info">{{ addressInfo }}</div>
             </div>
             <div class="item good">
-              <div class="detail-title">商品名称：</div>
+              <div class="detail-title">餐品名称：</div>
               <div class="detail-info">
                 <ul>
                   <li v-for="(item, index) in orderDetail" :key="index">

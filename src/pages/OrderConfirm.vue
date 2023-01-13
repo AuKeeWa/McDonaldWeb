@@ -80,11 +80,11 @@
           </div>
           <div class="detail">
             <div class="item">
-              <span class="item-name">商品件数：</span>
+              <span class="item-name">餐品件数：</span>
               <span class="item-val">{{count}}件</span>
             </div>
             <div class="item">
-              <span class="item-name">商品总价：</span>
+              <span class="item-name">餐品总价：</span>
               <span class="item-val">{{foodTotalPrice}}元</span>
             </div>
             <div class="item">
