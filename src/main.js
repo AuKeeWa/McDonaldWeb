@@ -7,7 +7,6 @@ import 'element-ui/lib/theme-chalk/index.css'
 import { Message, Button } from 'element-ui'
 import router from './router' // 路由
 import api from './api' // 导入api接口
-import VueLazyLoad from 'vue-lazyload' // 引入懒加载
 import VueCookie from 'vue-cookie' // 引入cookie
 import store from './store' // 引入vuex
 import "./assets/ifont/iconfont.css";
@@ -18,11 +17,11 @@ import "./assets/ifont/iconfont.css";
 // import '@/assets/scss/reset.scss'; // 引入重置样式表（覆盖浏览器用户代理样式）
 
 // mock开关
-// const mock = true;
+const mock = true;
 // // 运行时根据条件动态加载
-// if (mock) {
-//   require('./mock/api')
-// }
+if (mock) {
+  require('./mock/mock.js')
+}
 
 // axios默认配置
 // axios.defaults.timeout = 8000 // 请求超时
@@ -50,8 +49,11 @@ Vue.prototype.$message = Message;
 Vue.use(Button);
 
 Vue.use(VueLazyLoad, {
-    loading: '/imgs/loading-svg/loading-bars.svg'
+    loading: '/imgs/loading-svg/loading-bars.svg',
+    error:'/imgs/loading-svg/loading-bars.svg'
 })
+import VueLazyLoad from 'vue-lazyload' // 引入懒加载
+
 Vue.use(VueCookie)
 Vue.prototype.$api = api // 将api挂载到vue的原型上
 Vue.config.productionTip = false // 关闭生产模式下给出的提示

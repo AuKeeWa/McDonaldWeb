@@ -53,17 +53,26 @@ const mall = {
         return axios.get('api/carts');
     },
     // 更新购物车数量和单选状态
-    updateCart(id, params) {
-        return axios.put(`api/carts/${id}`, params);
+    // updateCart(id, params) {
+    //     return axios.put(`api/carts/${id}`, params);
+    // },
+    updateCart(params){
+        return axios.post('api/carts/update', params);
     },
     // 删除购物车商品
-    deleteCart(id) {
-        return axios.delete(`api/carts/${id}`);
+    deleteCart(params) {
+        return axios.post('api/carts/delete',params);
     },
+    // deleteCart(id) {
+    //     return axios.delete(`api/carts/${id}`);
+    // },
     // 全选购物车
-    allCheckCart(url) {
-        return axios.put(`api/${url}`);
+    allCheckCart(params){
+        return axios.post('api/checkall',params);
     },
+    // allCheckCart(url) {
+    //     return axios.put(`api/${url}`);
+    // },
     // 获取购物车商品数量
     getCartSum() {
         return axios.get('api/carts/products/sum');
@@ -76,6 +85,16 @@ const mall = {
     getAddress() {
         return axios.get('api/shippings');
     },
+    // 新增收获地址
+    addAddress(params) {
+        return axios.post('api/shippings/add',params);
+    },
+    editAddress(params) {
+        return axios.post('api/shippings/edit',params);
+    },
+    deleteAddress(params) {
+        return axios.post('api/shippings/delete',params);
+    },
     // 收货地址增删改
     handleAddress(method, url, params) {
         return axios[method](url, params);
@@ -85,8 +104,11 @@ const mall = {
         return axios.post('api/orders', params);
     },
     // 获取订单详情
-    getOrder(id) {
-        return axios.get(`api/orders/${id}`);
+    // getOrder(id) {
+    //     return axios.get(`api/orders/${id}`);
+    // },
+    getOrder(params) {
+        return axios.post('api/orders/get', params );
     },
     // 获取订单详情
     getOrderList(params) {
@@ -95,6 +117,9 @@ const mall = {
     // 提交支付
     submitPay(params) {
         return axios.post('api/pay', params);
+    },
+    sendList(params) {
+        return axios.post('api/orders/send', params);
     }
 }
 

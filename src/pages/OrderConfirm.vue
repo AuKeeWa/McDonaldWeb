@@ -2,7 +2,7 @@
   <div class="order-confirm">
     <order-header title="订单确认">
       <template #tips>
-        <span>请认真填写收货地址</span>
+        <span>请认真填写送餐地址</span>
       </template>
     </order-header>
     <!-- 增删改图标 -->
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="order-box">
           <div class="item-address">
-            <h2 class="addr-title">收货地址</h2>
+            <h2 class="addr-title">送餐地址</h2>
             <div class="addr-list clearfix">
               <div class="addr-info" :class="{'checked':index == checkIndex}" @click="checkIndex=index" v-for="(item,index) in list" :key="index">
                 <h2>{{item.receiverName}}</h2>
@@ -62,7 +62,7 @@
               <li v-for="(item,index) in cartList" :key="index">
                 <div class="good-name">
                   <img v-lazy="item.productMainImage" alt />
-                  <span>{{item.productName + ' ' + item.productSubtitle}}</span>
+                  <span>{{item.productName}}</span>
                 </div>
                 <div class="good-price">{{item.productPrice}}元x{{item.quantity}}</div>
                 <div class="good-total">{{item.productTotalPrice}}元</div>
@@ -71,7 +71,7 @@
           </div>
           <div class="item-shipping">
             <h2>配送方式</h2>
-            <span>包邮</span>
+            <span>麦乐送</span>
           </div>
           <div class="item-invoice">
             <h2>发票</h2>
@@ -85,15 +85,15 @@
             </div>
             <div class="item">
               <span class="item-name">商品总价：</span>
-              <span class="item-val">{{cartTotalPrice}}元</span>
+              <span class="item-val">{{foodTotalPrice}}元</span>
             </div>
             <div class="item">
               <span class="item-name">优惠活动：</span>
               <span class="item-val">0元</span>
             </div>
             <div class="item">
-              <span class="item-name">运费：</span>
-              <span class="item-val">0元</span>
+              <span class="item-name">配送费：</span>
+              <span class="item-val">9元</span>
             </div>
             <div class="item-total">
               <span class="item-name">应付总额：</span>
@@ -101,7 +101,7 @@
             </div>
           </div>
           <div class="btn-group">
-            <a href="/#/cart" class="btn btn-default btn-large">返回购物车</a>
+            <a href="/#/cart" class="btn btn-default btn-large">返回餐车</a>
             <a href="javascript:;" class="btn btn-large" @click="submitOrder">去结算</a>
           </div>
         </div>
@@ -117,22 +117,19 @@
           </div>
           <div class="item">
             <select name="province" v-model="checkedItem.receiverProvince">
-              <option value="四川省">四川省</option>
               <option value="广东省">广东省</option>
-              <option value="浙江省">浙江省</option>
             </select>
             <select name="city" v-model="checkedItem.receiverCity">
-              <option value="成都市">成都市</option>
-              <option value="德阳市">德阳市</option>
-              <option value="绵阳市">绵阳市</option>
+              <option value="广州市">广州市</option>
+              <option value="珠海市">珠海市</option>
+              <option value="深圳市">深圳市</option>
             </select>
             <select name="district" v-model="checkedItem.receiverDistrict">
-              <option value="昌平区">昌平区</option>
-              <option value="海淀区">海淀区</option>
-              <option value="东城区">东城区</option>
-              <option value="西城区">西城区</option>
-              <option value="顺义区">顺义区</option>
-              <option value="房山区">房山区</option>
+              <option value="昌平区">海珠区</option>
+              <option value="海淀区">番禺区</option>
+              <option value="越秀区">越秀区</option>
+              <option value="香洲区">香洲区</option>
+              <option value="光明新区">光明新区</option>
             </select>
           </div>
           <div class="item">
@@ -160,7 +157,8 @@ export default {
     return {
       list: [], //收货地址列表
       cartList: [], //购物车中需要结算的商品列表
-      cartTotalPrice: 0, //商品总金额
+      foodTotalPrice: 0, //商品总金额
+      cartTotalPrice: 0,
       count: 0, //商品结算数量
       checkedItem: {}, //选中的商品对象
       userAction: '', //用户行为 0：新增 1：编辑 2：删除
@@ -181,7 +179,10 @@ export default {
     // 获取收货地址
     getAddressList() {
       this.$api.mall.getAddress().then((res) => {
+        console.log('get');
+        // console.log(res);
         this.list = res.list;
+        console.log(this.list);
       });
     },
     // 打开新增地址弹框
@@ -205,20 +206,8 @@ export default {
     // 地址删除、编辑、新增功能
     submitAddress() {
       let { checkedItem, userAction } = this;
-      let method,
-        url,
-        params = {};
-      if (userAction == 0) {
-        // 新增
-        (method = 'post'), (url = 'api/shippings');
-      } else if (userAction == 1) {
-        // 编辑
-        (method = 'put'), (url = `api/shippings/${checkedItem.id}`);
-      } else {
-        // 删除
-        (method = 'delete'), (url = `api/shippings/${checkedItem.id}`);
-      }
-      if (userAction == 0 || userAction == 1) {
+      let params = {};
+      if(userAction == 0) {
         let {
           receiverName,
           receiverMobile,
@@ -246,6 +235,22 @@ export default {
           return this.$message.error(errMsg);
         }
         params = {
+          name: receiverName,
+          mobile: receiverMobile,
+          province: receiverProvince,
+          city: receiverCity,
+          district: receiverDistrict,
+          add: receiverAddress,
+          zip: receiverZip
+        };
+        this.$api.mall.addAddress(params).then(() => {
+          this.closeModal();
+          this.getAddressList();
+          this.$message.success('添加成功');
+        });
+      }
+      else if(userAction == 1){
+        let {
           receiverName,
           receiverMobile,
           receiverProvince,
@@ -253,13 +258,65 @@ export default {
           receiverDistrict,
           receiverAddress,
           receiverZip
+        } = checkedItem;
+        let errMsg = '';
+        if (!receiverName) {
+          errMsg = '请输入收货人名称';
+        } else if (!receiverMobile || !/^\d{11}$/.test(receiverMobile)) {
+          errMsg = '请输入正确格式的手机号';
+        } else if (!receiverProvince) {
+          errMsg = '请选择省份';
+        } else if (!receiverCity) {
+          errMsg = '请选择对应的城市';
+        } else if (!receiverAddress || !receiverDistrict) {
+          errMsg = '请输入收货地址';
+        } else if (!/^\d{6}$/.test(receiverZip)) {
+          errMsg = '请输入六位邮编';
+        }
+        if (errMsg) {
+          return this.$message.error(errMsg);
+        }
+        params = {
+          id: checkedItem.id,
+          name: receiverName,
+          mobile: receiverMobile,
+          province: receiverProvince,
+          city: receiverCity,
+          district: receiverDistrict,
+          add: receiverAddress,
+          zip: receiverZip
         };
+        this.$api.mall.editAddress(params).then(() => {
+          this.closeModal();
+          this.getAddressList();
+          this.$message.success('修改成功');
+        });
       }
-      this.$api.mall.handleAddress(method, url, params).then(() => {
-        this.closeModal();
-        this.getAddressList();
-        this.$message.success('操作成功');
-      });
+      else{
+        this.$api.mall.deleteAddress({id:checkedItem.id}).then(() => {
+          this.closeModal();
+          this.getAddressList();
+          this.$message.success('删除成功');
+        });
+      }
+      // let method,
+      //   url,
+      //   params = {};
+      // if (userAction == 0) {
+      //   // 新增
+      //   (method = 'post'), (url = 'api/shippings');
+      // } else if (userAction == 1) {
+      //   // 编辑
+      //   (method = 'put'), (url = `api/shippings/${checkedItem.id}`);
+      // } else {
+      //   // 删除
+      //   (method = 'delete'), (url = `api/shippings/${checkedItem.id}`);
+      // }
+      // this.$api.mall.handleAddress(method, url, params).then(() => {
+      //   this.closeModal();
+      //   this.getAddressList();
+      //   this.$message.success('操作成功');
+      // });
     },
     // 关闭弹窗
     closeModal() {
@@ -272,7 +329,8 @@ export default {
     getCartList() {
       this.$api.mall.getCart().then((res) => {
         let list = res.cartProductVoList; //获取购物车中所有商品数据
-        this.cartTotalPrice = res.cartTotalPrice; //商品总金额
+        this.foodTotalPrice = res.cartTotalPrice; //商品总金额
+        this.cartTotalPrice = this.foodTotalPrice + 9;
         this.cartList = list.filter((item) => item.productSelected);
         this.cartList.map((item) => {
           this.count += item.quantity;
@@ -281,34 +339,31 @@ export default {
     },
     // 订单提交
     submitOrder() {
+      // this.$api.mall.sendList({orderList:this.cartList}).then(res=>{
+      //   console.log('send');
+      //   console.log(res);
+      // })
       let item = this.list[this.checkIndex];
       if (!item) {
-        this.$message.error('请选择一个收货地址');
+        this.$message.error('请选择一个送餐地址');
         return;
       }
       const params = {
-        shippingId: item.id
+        shippingId: item.id,
+        orderList: this.cartList
       };
       this.$api.mall.submitOrder(params).then((res) => {
+        console.log("sub:");
+        console.log(res);
         this.$router.push({
           path: '/order/pay',
           query: {
+            shippingId: item.id,
             orderNo: res.orderNo
           }
         });
       });
-      // this.axios
-      //   .post('/orders', {
-      //     shippingId: item.id
-      //   })
-      //   .then((res) => {
-      //     this.$router.push({
-      //       path: '/order/pay',
-      //       query: {
-      //         orderNo: res.orderNo
-      //       }
-      //     });
-      //   });
+
     }
   }
 };

@@ -2658,20 +2658,27 @@
 
                 </div>
             </div>
+            <!-- <modal title="提示信息" sureText="查看餐车" btnType="3" modalType="small" :showModal="showModal" @submit="goCart"
+                @cancel="showModal = false">
+                <template v-slot:body>
+                <p>餐品添加成功！</p>
+                </template>
+            </modal> -->
         </div>
     </div>
 </template>
 
 <script>
 // import { debug } from 'console';
-
 // import Modal from '@/components/Modal.vue';
 import { mapState } from 'vuex';
 export default {
     name: 'index',
+    // components: { Modal },
     // components: { ServiceBar, Modal, Swiper, SwiperSlide },
     data() {
         return {
+            showModal: false,
             active: 0   //激活的导航索引
         }
     },
@@ -2731,8 +2738,11 @@ export default {
                 selected: true
             };
             this.$api.mall.addCart(params).then((res = { cartProductVoList: 0 }) => {
+                // console.log("add:");
+                // console.log(res);
                 this.$store.dispatch('saveCartCount', res.cartProductVoList.length + 1);
-                this.showModal = true;
+                this.$message.success('添加成功');
+                // this.showModal = true;
             });
         },
         // 去购物车

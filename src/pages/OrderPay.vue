@@ -13,7 +13,7 @@
             <div class="icon-succ"></div>
             <div class="order-info">
               <h2>订单提交成功！去付款咯～</h2>
-              <p>请在<span>30分</span>内完成支付, 超时后将取消订单</p>
+              <p>请在<span>15分</span>内完成支付, 超时后将取消订单</p>
               <p>收货信息：{{ addressInfo }}</p>
             </div>
             <div class="order-total">
@@ -35,7 +35,7 @@
               <div class="detail-info">
                 <ul>
                   <li v-for="(item, index) in orderDetail" :key="index">
-                    <img v-lazy="item.productImage" />{{ item.productName }}
+                    <img v-lazy="item.productMainImage" />{{ item.productName }}
                   </li>
                 </ul>
               </div>
@@ -79,6 +79,7 @@ export default {
   name: 'order-pay',
   data() {
     return {
+      shippingId: this.$route.query.shippingId,
       orderId: this.$route.query.orderNo,
       addressInfo: '', //收货人地址
       orderDetail: [], //订单详情，包含商品列表
@@ -102,7 +103,12 @@ export default {
   methods: {
     // 获取订单详情
     getOrderDetail() {
-      this.$api.mall.getOrder(this.orderId).then((res) => {
+      // this.$api.mall.getOrder(this.orderId).then((res) => {
+      let params = {
+        shipid:this.shippingId,
+        orderid:this.orderId
+      }
+      this.$api.mall.getOrder(params).then((res) => {
         let item = res.shippingVo;
         this.addressInfo = `${item.receiverName} ${item.receiverMobile} ${item.receiverProvince} ${item.receiverCity} ${item.receiverDistrict} ${item.receiverAddress}`;
         this.orderDetail = res.orderItemVoList;
