@@ -221,6 +221,7 @@ const deleteFood = function(id){
     else if(id==48){
         findFood(id48);
     }
+    renderCart();
 }
 
 Mock.mock('api/carts','post', function(params){

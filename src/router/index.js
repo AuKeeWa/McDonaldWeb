@@ -13,14 +13,6 @@ import Router from 'vue-router'
 // import Login from '../pages/Login'
 import Home from '../pages/Home'
 import Index from '../newPages/Index'
-// import Product from '../pages/Product'
-// import Detail from '../pages/Detail'
-// import Cart from '../pages/Cart'
-// import Order from '../pages/Order'
-// import OrderConfirm from '../pages/OrderConfirm'
-// import OrderList from '../pages/OrderList'
-// import OrderPay from '../pages/OrderPay'
-// import Alipay from '../pages/Alipay'
 // 加载路由插件
 Vue.use(Router)
     // 导出路由
@@ -46,14 +38,6 @@ export default new Router({
                     // component: resolve => require(['../pages/Product.vue'],resolve), // 路由懒加载
                     component: () =>
                         import ('../newPages/AllProduct.vue') // 路由懒加载
-                },
-                {
-                    path: 'detail/:id',
-                    name: 'detail',
-                    // component: Detail,
-                    // component: resolve => require(['../pages/Detail.vue'], resolve), // 路由懒加载
-                    component: () =>
-                        import ('../pages/Detail.vue') // 路由懒加载
                 },
                 {
                     path: '/alien', // 动态路由
