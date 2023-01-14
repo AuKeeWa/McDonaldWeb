@@ -60,21 +60,21 @@
       </div>
     </div>
     <!-- 微信支付二维码弹窗 -->
-    <scan-pay-code v-if="showPay" @close="closePayModal" :img="payImg"></scan-pay-code>
+    <scan-pay-code v-if="showPay" @close="closePayModal" :img="'/imgs/pay/icon-qrcode.png'"></scan-pay-code>
     <!-- 支付确认弹窗 -->
-    <modal title="支付确认" btnType="3" :showModal="showPayModal" sureText="查看订单" cancelText="未支付"
+    <!-- <modal title="支付确认" btnType="3" :showModal="showPayModal" sureText="查看订单" cancelText="未支付"
       @cancel="showPayModal = false" @submit="goOrderList">
       <template v-slot:body>
         <p>您确认是否完成支付？</p>
-      </template>
-    </modal>
+      </template> -->
+    
   </div>
 </template>
 <script>
 import QRCode from 'qrcode';
 import OrderHeader from './../components/OrderHeader';
 import ScanPayCode from './../components/ScanPayCode';
-import Modal from './../components/Modal';
+// import Modal from './../components/Modal';
 export default {
   name: 'order-pay',
   data() {
@@ -87,7 +87,7 @@ export default {
       payType: 1, //支付类型
       showPay: false, //是否显示微信支付弹框
       payImg: '', //微信支付的二维码地址
-      showPayModal: false, //是否显示二次支付确认弹框
+      // showPayModal: false, //是否显示二次支付确认弹框
       payment: 0, //订单总金额
       T: '' //定时器ID
     };
@@ -95,12 +95,24 @@ export default {
   components: {
     OrderHeader,
     ScanPayCode,
-    Modal
+    // Modal
   },
   mounted() {
     this.getOrderDetail();
   },
   methods: {
+    goToMenu() {
+      this.$api.mall.logout().then(() => {
+                this.$message.success('支付成功');
+                // // 清除用户ID
+                this.$cookie.set('userId', '', { expires: '-1' });
+                // // 清除用户名
+                this.$store.dispatch('saveUserName', '');
+                // 清空购物车数量
+                this.$store.dispatch('saveCartCount', 0);
+            });
+            this.$router.push('/menu');
+    },
     // 获取订单详情
     getOrderDetail() {
       // this.$api.mall.getOrder(this.orderId).then((res) => {
@@ -133,6 +145,8 @@ export default {
           .then((res) => {
             QRCode.toDataURL(res.content)
               .then((url) => {
+                console.log(url);
+
                 this.showPay = true;
                 this.payImg = url; // base64二维码
                 this.loopOrderState();
@@ -147,8 +161,9 @@ export default {
     closePayModal() {
       this.showPay = false;
       // 支付确认弹窗
-      this.showPayModal = true;
+      // this.showPayModal = true;
       clearInterval(this.T);
+      this.goToMenu();
     },
     // 轮询当前订单支付状态
     loopOrderState() {

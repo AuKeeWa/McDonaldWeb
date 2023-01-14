@@ -515,8 +515,6 @@ Mock.mock('api/shippings/delete', 'post', function(params){ //输出数据
 })
 
 Mock.mock('api/orders/send', 'post', function(params){ //输出数据
-    // console.log('send:');
-    // console.log(JSON.parse(params.body));
     sendList = JSON.parse(params.body).orderList;
     return Mock.mock({
         "status": 0,
@@ -529,8 +527,6 @@ Mock.mock('api/orders/send', 'post', function(params){ //输出数据
 let receiver = {};
 
 Mock.mock('api/orders', 'post', function(params){ //输出数据
-    console.log('order:');
-    console.log(JSON.parse(params.body));
     let sid = JSON.parse(params.body).shippingId;
     sendList = JSON.parse(params.body).orderList;
     receiver = getAddress(sid);
@@ -558,12 +554,6 @@ Mock.mock('api/orders', 'post', function(params){ //输出数据
 })
 
 Mock.mock('api/orders/get', 'post', function(params){ //输出数据
-    console.log('getOrder:');
-    console.log(sendList);
-    // console.log(params);
-    // console.log(JSON.parse(params.body));
-    // let oid = 0;
-    // let sid = 0;
     let oid = JSON.parse(params.body).orderid;
     let sid = JSON.parse(params.body).shipid;
     return Mock.mock({
