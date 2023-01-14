@@ -1,10 +1,5 @@
 <template>
   <div class="product">
-    <!-- <product-param :title="product.name">
-      <template v-slot:buy>
-        <button class="btn" @click="buy">立即购买</button>
-      </template>
-    </product-param> -->
     <div class="content">
       <!-- 宣传图 -->
       <div v-if="(activeName == 'first')" class="item-bg-1"></div>
@@ -1778,19 +1773,6 @@
         </el-tabs>
       </div>
 
-
-      <!-- 轮播图 -->
-      <!-- <div class="item-swiper">
-        <swiper :options="swiperOption">
-          <swiper-slide><img src="/imgs/product/gallery-2.png" alt=""></swiper-slide>
-          <swiper-slide><img src="/imgs/product/gallery-3.png" alt=""></swiper-slide>
-          <swiper-slide><img src="/imgs/product/gallery-4.png" alt=""></swiper-slide>
-          <swiper-slide><img src="/imgs/product/gallery-5.jpg" alt=""></swiper-slide>
-          <swiper-slide><img src="/imgs/product/gallery-6.jpg" alt=""></swiper-slide>
-          <div class="swiper-pagination" slot="pagination"></div>
-        </swiper>
-        <p class="desc">小米8 AI变焦双摄拍摄</p>
-      </div> -->
       <!-- 视频播放 -->
       <div class="item-video">
         <h2>比拿铁更奶更浓，<br />麦咖啡奶铁问世！</h2>
@@ -1822,54 +1804,19 @@
   </div>
 </template>
 <script>
-// import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
-// import productParam from '@/components/ProductParam';
 export default {
   name: 'product',
-  components: {
-    // Swiper,
-    // SwiperSlide,
-    // productParam
-  },
   data() {
     return {
       showSlide: '', //控制动画效果
       product: {}, //商品信息
       activeName: 'first',
-      // 轮播图插件
-      // swiperOption: {
-      //   autoplay: true,
-      //   loop: true,
-      //   slidesPerView: 3,
-      //   spaceBetween: 30,
-      //   freeMode: true,
-      //   pagination: {
-      //     el: '.swiper-pagination',
-      //     clickable: true
-      //   }
-      // }
     };
-  },
-  mounted() {
-    // this.getProductInfo();
   },
   methods: {
     handleClick(tab, event) {
-
       console.log({ tab }, { event });
     },
-    // 获取商品信息
-    // getProductInfo() {
-    //   let id = this.$route.params.id;
-    //   this.$api.mall.getProductInfo(id).then((res) => {
-    //     this.product = res;
-    //   });
-    // },
-    // 购买
-    // buy() {
-    //   let id = this.$route.params.id;
-    //   this.$router.push(`/detail/${id}`);
-    // },
     // 打开视频
     openVideo() {
       this.showSlide = 'slideDown';

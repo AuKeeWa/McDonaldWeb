@@ -179,10 +179,7 @@ export default {
     // 获取收货地址
     getAddressList() {
       this.$api.mall.getAddress().then((res) => {
-        console.log('get');
-        // console.log(res);
         this.list = res.list;
-        console.log(this.list);
       });
     },
     // 打开新增地址弹框
@@ -339,10 +336,6 @@ export default {
     },
     // 订单提交
     submitOrder() {
-      // this.$api.mall.sendList({orderList:this.cartList}).then(res=>{
-      //   console.log('send');
-      //   console.log(res);
-      // })
       let item = this.list[this.checkIndex];
       if (!item) {
         this.$message.error('请选择一个送餐地址');
@@ -353,8 +346,6 @@ export default {
         orderList: this.cartList
       };
       this.$api.mall.submitOrder(params).then((res) => {
-        console.log("sub:");
-        console.log(res);
         this.$router.push({
           path: '/order/pay',
           query: {

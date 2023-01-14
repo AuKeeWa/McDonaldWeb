@@ -57,34 +57,32 @@
 </template>
 <script>
 import OrderHeader from '@/components/OrderHeader';
-// import ServiceBar from '@/components/ServiceBar';
 import NavFooter from '@/components/NavFooter';
 export default {
   name: 'cart',
   components: {
     OrderHeader,
-    // ServiceBar,
     NavFooter
   },
   data() {
     return {
-      list: [], //商品列表
+      list: [], //餐品列表
       allChecked: false, //是否全选
-      cartTotalPrice: 0, //商品总金额
-      checkedNum: 0 //选中商品数量
+      cartTotalPrice: 0, //餐品总金额
+      checkedNum: 0 //选中餐品数量
     };
   },
   mounted() {
     this.getCartList();
   },
   methods: {
-    // 获取购物车列表
+    // 获取餐车列表
     getCartList() {
       this.$api.mall.getCart().then((res) => {
         this.renderData(res);
       });
     },
-    // 更新购物车数量和购物车单选状态
+    // 更新餐车数量和购物车单选状态
     updateCart(item, type) {
       let quantity = item.quantity,
         selected = item.productSelected;
@@ -118,7 +116,7 @@ export default {
           this.renderData(res);
         });
     },
-    // 删除购物车商品
+    // 删除餐车商品
     delProduct(item) {
       this.$api.mall.deleteCart({id:item.productId}).then((res) => {
         this.$message.success('删除成功');
@@ -144,10 +142,9 @@ export default {
       this.list = res.cartProductVoList || [];
       this.allChecked = res.selectedAll;
       this.cartTotalPrice = res.cartTotalPrice;
-      // this.checkedNum = res.;
       this.checkedNum = this.list.filter((item) => item.productSelected).length;
     },
-    // 购物车下单
+    // 餐车下单
     order() {
       let isCheck = this.list.every((item) => !item.productSelected);
       if (isCheck) {

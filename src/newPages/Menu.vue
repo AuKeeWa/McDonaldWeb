@@ -2667,15 +2667,12 @@
 import { mapState } from 'vuex';
 export default {
     name: 'index',
-    // components: { Modal },
-    // components: { ServiceBar, Modal, Swiper, SwiperSlide },
     data() {
         return {
             active: 0   //激活的导航索引
         }
     },
     mounted() {
-        // this.init();
         window.addEventListener('scroll', this.onScroll, false);
     },
     destroy(){
@@ -2683,30 +2680,9 @@ export default {
     },
     computed: {
     // 获取store中state值
-    // 方式一：
-    // username() {
-    //   return this.$store.state.username;
-    // },
-    // cartCount() {
-    //   return this.$store.state.cartCount;
-    // }
-    // 方式二：
         ...mapState(['username', 'cartCount'])
     },
     methods: {
-        // 初始化商品列表
-        // init() {
-            /*this.$api.mall
-                .goodsList({
-                    categoryId: 100012,
-                    pageSize: 14
-                })
-                .then((res) => {
-                    console.log('res', res);
-                    res.list = res.list.slice(6, 14);
-                    this.phoneList = [res.list.slice(0, 4), res.list.slice(4, 8)];
-                });*/
-        // },
         // 登录
         goLogin() {
             this.$router.push('/login');
@@ -2752,7 +2728,6 @@ export default {
         onScroll(){
             // 获取所有锚点元素
             const navContents = document.querySelectorAll('.CaName')
-            
             // 所有锚点元素的 offsetTop
             const offsetTopArr = []
             navContents.forEach(item => {
@@ -2798,8 +2773,6 @@ export default {
                         scrollTop += STEP
                     }
                     else {
-                        console.log(scrollTop)
-                        console.log(targetOffsetTop)
                         scrollTop = targetOffsetTop
                     }
                     document.body.scrollTop = scrollTop+1
@@ -2807,7 +2780,7 @@ export default {
                     // 关于 requestAnimationFrame 可以自己查一下，在这种场景下，相比 setInterval 性价比更高
                     requestAnimationFrame(smoothDown)
                 }else{
-                    console.log('else')
+                    console.log('Warning!')
                 }
             }
             // 定义往上滑函数

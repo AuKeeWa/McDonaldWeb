@@ -165,7 +165,6 @@ export default {
   mounted() {
     // this.getProductList();
     let params = this.$route.params;
-    console.log('this.$route.params', this.$route.params);
     if (params && params.from == 'login') {
       this.getCartSum();
     }

@@ -91,7 +91,6 @@
                 if (this.opts) {
                     return;
                 }
-                // let height = this.fontSize * 6;
                 let height = 200;    //图片高度
                 this.opts = this.slots.map((data, i) => {
                     const slot = this.$refs.slots[i]; // 读取每一列
@@ -124,7 +123,6 @@
                     const power = 3;
                     const offset = (Math.pow(timeRemaining, power) / Math.pow(opt.duration, power)) * opt.startOffset;
                     const pos = -1 * Math.floor((offset + opt.finalPos) % opt.height);
-                    console.log(offset,opt.finalPos,opt.height);
                     opt.el.style.transform = "translateY(" + pos + "px)";
                     if (timeDiff > opt.duration) {
                         opt.isFinished = true;
