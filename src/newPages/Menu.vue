@@ -71,22 +71,23 @@
                         <div class="userInfo highLight">
                             <ul class="loginInfo">
                                 <li>
-                                    <span class="displayblock iconfont icon-yonghu fontsize30">
-                                    </span>
-                                    <!-- <span class="displayblock" href="javascript:;" v-if="username">
-                                        {{username}}
-                                    </span> -->
-                                    <span class="displayblock" href="javascript:;" v-if="!username" @click="goLogin()">
-                                        登录
-                                    </span>
-                                    <span class="displayblock" href="javascript:;" v-if="username" @click="goLogout()">
-                                        退出
-                                    </span>
+                                    <div v-if="!username" @click="goLogin()">
+                                        <span class="displayblock iconfont icon-yonghu fontsize30"></span>
+                                        <span class="displayblock" href="javascript:;">
+                                            登录
+                                        </span>
+                                    </div>
+                                    <div v-if="username" @click="goLogout()">
+                                        <span class="displayblock iconfont icon-yonghu fontsize30"></span>
+                                        <span class="displayblock" href="javascript:;" >
+                                            退出
+                                        </span>
+                                    </div>
                                 </li>
-                                <li>
-                                    <span class="displayblock iconfont icon-gouwuche fontsize30" @click="goCart()">
+                                <li @click="goCart()">
+                                    <span class="displayblock iconfont icon-gouwuche fontsize30">
                                     </span>
-                                    <span class="displayblock" href="javascript:;" @click="goCart()">
+                                    <span class="displayblock" href="javascript:;">
                                         餐车
                                     </span>
                                 </li>
@@ -2658,19 +2659,11 @@
 
                 </div>
             </div>
-            <!-- <modal title="提示信息" sureText="查看餐车" btnType="3" modalType="small" :showModal="showModal" @submit="goCart"
-                @cancel="showModal = false">
-                <template v-slot:body>
-                <p>餐品添加成功！</p>
-                </template>
-            </modal> -->
         </div>
     </div>
 </template>
 
 <script>
-// import { debug } from 'console';
-// import Modal from '@/components/Modal.vue';
 import { mapState } from 'vuex';
 export default {
     name: 'index',
@@ -2678,12 +2671,11 @@ export default {
     // components: { ServiceBar, Modal, Swiper, SwiperSlide },
     data() {
         return {
-            showModal: false,
             active: 0   //激活的导航索引
         }
     },
     mounted() {
-        this.init();
+        // this.init();
         window.addEventListener('scroll', this.onScroll, false);
     },
     destroy(){
@@ -2703,7 +2695,7 @@ export default {
     },
     methods: {
         // 初始化商品列表
-        init() {
+        // init() {
             /*this.$api.mall
                 .goodsList({
                     categoryId: 100012,
@@ -2714,7 +2706,7 @@ export default {
                     res.list = res.list.slice(6, 14);
                     this.phoneList = [res.list.slice(0, 4), res.list.slice(4, 8)];
                 });*/
-        },
+        // },
         // 登录
         goLogin() {
             this.$router.push('/login');
@@ -2733,20 +2725,25 @@ export default {
         },
         // 加入购物车
         addCart(id) {
+            if(!this.username){
+                this.$message.warning('请先登录！');
+                return;
+            }
             let params = {
                 productId: id,
                 selected: true
             };
             this.$api.mall.addCart(params).then((res = { cartProductVoList: 0 }) => {
-                // console.log("add:");
-                // console.log(res);
                 this.$store.dispatch('saveCartCount', res.cartProductVoList.length + 1);
                 this.$message.success('添加成功');
-                // this.showModal = true;
             });
         },
         // 去购物车
         goCart() {
+            if(!this.username){
+                this.$message.warning('请先登录！');
+                return;
+            }
             this.$router.push('/cart');
         },
         goToIndex() {
@@ -2836,10 +2833,13 @@ export default {
 </script>
 
 <style lang="scss">
+.Order {
 .menu {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+    line-height: 1.5;
+    color: #515a6e;
 }
 
 .displayinlineblock,
@@ -2847,11 +2847,6 @@ export default {
     display: inline-block;
     padding: 5px;
     transform: scale(0.85);
-}
-
-.menu {
-    line-height: 1.5;
-    color: #515a6e;
 }
 
 .menu *,
@@ -3241,5 +3236,6 @@ a {
     &:hover {
         background-color: #ffa700;
     }
+}
 }
 </style>

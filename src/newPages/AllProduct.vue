@@ -1885,6 +1885,7 @@ export default {
 };
 </script>
 <style lang="scss" >
+
 .backtop {
   background-color: $colorA;
   color: #fff;
@@ -2161,13 +2162,8 @@ export default {
   button {
     margin-left: 10px;
   }
-}
 
-div {
-  display: block;
-}
-
-.product-list .content-box {
+  .product-list .content-box {
   margin-bottom: 75px;
 }
 
@@ -2397,4 +2393,11 @@ a {
 img {
   border: 0;
 }
+}
+
+div {
+  display: block;
+}
+
+
 </style>

@@ -1,24 +1,6 @@
 <template>
   <!-- 顶部导航 -->
   <div class="header">
-    <!-- <div class="nav-topbar">
-      <div class="container">
-        <div class="topbar-menu">
-          <a href="javascript:;">小米商城</a>
-          <a href="javascript:;">MUI</a>
-          <a href="javascript:;">云服务</a>
-          <a href="javascript:;">协议规则</a>
-        </div>
-        <div class="topbar-user">
-          <a href="javascript:;" v-if="username">{{ username }}</a>
-          <a href="javascript:;" v-if="!username" @click="goLogin()">登录</a>
-          <a href="javascript:;" v-if="username" @click="goLogout()">退出</a>
-          <a href="/#/order/list" v-if="username">我的订单</a>
-          <a class="my-cart" href="javascript:;" @click="goToCart()"><span class="icon-cart"></span>购物车({{ cartCount
-          }})</a>
-        </div>
-      </div>
-    </div> -->
     <div class="nav-header">
       <div class="container">
         <div class="header-logo">
@@ -91,35 +73,9 @@
           <div class="item-menu">
             <!-- <span onclick="javascript:window.open('/#/menu')">网上订餐</span> -->
             <span @click="goToMenu">网上订餐</span>
-            <!-- <div class="children">
-              <ul>
-                <li class="product" v-for="(item, i) in tvList" :key="i">
-                  <a href="" target="_blank">
-                    <div class="pro-img">
-                      <img :src="item.img" alt="">
-                    </div>
-                    <div class="pro-name">{{ item.title }}</div>
-                    <div class="pro-price">{{ item.price }}</div>
-                  </a>
-                </li>
-              </ul>
-            </div> -->
           </div>
           <div class="item-menu">
             <span @click="goToAlien">外星页面</span>
-            <!-- <div class="children">
-              <ul>
-                <li class="product" v-for="(item, i) in tvList" :key="i">
-                  <a href="" target="_blank">
-                    <div class="pro-img">
-                      <img :src="item.img" alt="">
-                    </div>
-                    <div class="pro-name">{{ item.title }}</div>
-                    <div class="pro-price">{{ item.price }}</div>
-                  </a>
-                </li>
-              </ul>
-            </div> -->
           </div>
         </div>
 
