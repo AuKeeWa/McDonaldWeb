@@ -17,7 +17,7 @@
 
 # 2. 目录说明
 ```
-xiaomi-mall
+McDonaldWeb
 ├─ public
    ├─ json // 模拟数据
    └─ imgs // 图片资源(建议：大图片放public/imgs，小图片放src/assets)
