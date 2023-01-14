@@ -57,7 +57,7 @@
             </div>
           </div>
           <div class="item-good">
-            <h2>商品</h2>
+            <h2>餐品</h2>
             <ul>
               <li v-for="(item,index) in cartList" :key="index">
                 <div class="good-name">
